@@ -336,22 +336,22 @@ def cast_vote(candidate_id, category_id):
         log_vote_attempt(candidate_id, "Duplicate vote attempt")
         return redirect(url_for('online_voting.live_results'))
 
-    hashed_ip = hashlib.sha256(request.remote_addr.encode()).hexdigest()
-    existing_ip_vote = Vote.query.filter(
-        Vote.hashed_ip == hashed_ip,
-        Vote.category_id == category.id
-    ).first()
+    # hashed_ip = hashlib.sha256(request.remote_addr.encode()).hexdigest()
+    # existing_ip_vote = Vote.query.filter(
+    #     Vote.hashed_ip == hashed_ip,
+    #     Vote.category_id == category.id
+    # ).first()
 
-    if existing_ip_vote:
-        flash('A vote has already been cast from this device or location.', 'danger')
-        log_vote_attempt(candidate_id, "IP-based duplicate vote attempt")
-        return redirect(url_for('online_voting.live_results'))
+    # if existing_ip_vote:
+    #     flash('A vote has already been cast from this device or location.', 'danger')
+    #     log_vote_attempt(candidate_id, "IP-based duplicate vote attempt")
+    #     return redirect(url_for('online_voting.live_results'))
     logger.info(f"User {current_user.id} attempting to vote for candidate {candidate_id} in category {category_id}")
     vote = Vote(
         user_id=current_user.id,
         candidate_id=candidate.id,
         category_id=category.id,
-        hashed_ip=hashed_ip,
+        # hashed_ip=hashed_ip,
         timestamp=datetime.utcnow()
     )
     

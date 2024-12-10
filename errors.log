@@ -1224,3 +1224,16 @@
 2024-12-10 11:15:39,808 - INFO - 127.0.0.1 - - [10/Dec/2024 11:15:39] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
 2024-12-10 11:15:39,897 - INFO - 127.0.0.1 - - [10/Dec/2024 11:15:39] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=7Te97gAKLs64SZYZdKqT HTTP/1.1" 200 -
 2024-12-10 11:15:39,958 - INFO - 127.0.0.1 - - [10/Dec/2024 11:15:39] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-10 11:16:26,565 - INFO - 127.0.0.1 - - [10/Dec/2024 11:16:26] "GET /login HTTP/1.1" 200 -
+2024-12-10 11:16:26,737 - INFO - 127.0.0.1 - - [10/Dec/2024 11:16:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 11:16:29,526 - INFO - 127.0.0.1 - - [10/Dec/2024 11:16:29] "GET / HTTP/1.1" 200 -
+2024-12-10 11:16:29,665 - INFO - 127.0.0.1 - - [10/Dec/2024 11:16:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 11:16:29,705 - INFO - 127.0.0.1 - - [10/Dec/2024 11:16:29] "[33mGET /static/img/security.svg HTTP/1.1[0m" 404 -
+2024-12-10 11:16:29,730 - INFO - 127.0.0.1 - - [10/Dec/2024 11:16:29] "[36mGET /static/img/weather-3.jpg HTTP/1.1[0m" 304 -
+2024-12-10 11:16:29,732 - INFO - 127.0.0.1 - - [10/Dec/2024 11:16:29] "[33mGET /static/img/accessibility.svg HTTP/1.1[0m" 404 -
+2024-12-10 11:24:23,680 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\models.py', reloading
+2024-12-10 11:24:26,163 - INFO -  * Restarting with stat
+2024-12-10 11:24:34,866 - WARNING -  * Debugger is active!
+2024-12-10 11:24:34,878 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 11:24:54,555 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\vote\\routes.py', reloading
+2024-12-10 11:25:47,155 - ERROR - Error: Directory migrations already exists and is not empty

@@ -125,7 +125,7 @@ class Vote(db.Model):
         'Candidate', backref=db.backref('votes', lazy=True))
     category_id=db.Column(db.Integer, db.ForeignKey(
         'category.id'), nullable=False)
-    hashed_ip = db.Column(db.String(64), nullable=False)
+    # hashed_ip = db.Column(db.String(64), nullable=False)
 
 
 class AuditLog(db.Model):

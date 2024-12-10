@@ -1116,3 +1116,29 @@
 2024-12-10 02:39:31,200 - INFO - 127.0.0.1 - - [10/Dec/2024 02:39:31] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
 2024-12-10 02:39:31,270 - ERROR - Form validation errors: {}
 2024-12-10 02:39:31,275 - INFO - 127.0.0.1 - - [10/Dec/2024 02:39:31] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 10:37:15,966 - INFO - 127.0.0.1 - - [10/Dec/2024 10:37:15] "GET /category HTTP/1.1" 200 -
+2024-12-10 10:37:16,245 - ERROR - Invalid password reset link accessed.
+2024-12-10 10:37:16,255 - INFO - 127.0.0.1 - - [10/Dec/2024 10:37:16] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 10:37:16,262 - ERROR - Form validation errors: {}
+2024-12-10 10:37:16,279 - INFO - 127.0.0.1 - - [10/Dec/2024 10:37:16] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 10:44:14,449 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+2024-12-10 10:44:14,454 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-10 10:44:14,454 - INFO -  * Restarting with stat
+2024-12-10 10:44:27,186 - WARNING -  * Debugger is active!
+2024-12-10 10:44:27,282 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 10:44:45,965 - INFO - 127.0.0.1 - - [10/Dec/2024 10:44:45] "GET / HTTP/1.1" 200 -
+2024-12-10 10:44:46,177 - INFO - 127.0.0.1 - - [10/Dec/2024 10:44:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 10:44:46,216 - INFO - 127.0.0.1 - - [10/Dec/2024 10:44:46] "[33mGET /static/img/security.svg HTTP/1.1[0m" 404 -
+2024-12-10 10:44:46,216 - INFO - 127.0.0.1 - - [10/Dec/2024 10:44:46] "[36mGET /static/img/weather-3.jpg HTTP/1.1[0m" 304 -
+2024-12-10 10:44:46,700 - INFO - 127.0.0.1 - - [10/Dec/2024 10:44:46] "[33mGET /static/img/accessibility.svg HTTP/1.1[0m" 404 -
+2024-12-10 10:44:47,565 - ERROR - Invalid password reset link accessed.
+2024-12-10 10:44:47,587 - INFO - 127.0.0.1 - - [10/Dec/2024 10:44:47] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 10:44:47,823 - ERROR - Form validation errors: {}
+2024-12-10 10:44:47,838 - INFO - 127.0.0.1 - - [10/Dec/2024 10:44:47] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 10:44:49,610 - INFO - 127.0.0.1 - - [10/Dec/2024 10:44:49] "GET /login HTTP/1.1" 200 -
+2024-12-10 10:44:49,866 - INFO - 127.0.0.1 - - [10/Dec/2024 10:44:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 10:44:50,095 - ERROR - Invalid password reset link accessed.
+2024-12-10 10:44:50,096 - INFO - 127.0.0.1 - - [10/Dec/2024 10:44:50] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 10:44:50,115 - ERROR - Form validation errors: {}
+2024-12-10 10:44:50,119 - INFO - 127.0.0.1 - - [10/Dec/2024 10:44:50] "GET /forgot_password HTTP/1.1" 200 -

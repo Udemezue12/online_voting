@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="bg-gray-100 font-sans">
+
+    <!-- Sidebar -->
+    <div class="flex h-screen">
+      <aside class="w-64 bg-gradient-to-r from-blue-700 to-purple-700 text-white">
+        <div class="p-6">
+          <h1 class="text-2xl font-bold">Admin Panel</h1>
+        </div>
+        <nav class="mt-6">
+          {% if current_user.is_authenticated %}
+          <li class="text-2xl font-bold uppercase list-none p-6"><a href="{{ url_for('auth.logout') }}" class="hover:underline">Logout</a></li>
+              {% else %}
+                <li class="text-4xl font-bold uppercase"><a href="{{ url_for('auth.login') }}" class="hover:underline">Login</a></li>
+                <li class="text-xs font-bold uppercase"><a href="{{ url_for('auth.register') }}" class="hover:underline">Register</a></li>
+              {% endif %}
+        </nav>
+      </aside>
+
+      <!-- Main Content -->
+      <main class="flex-1 flex flex-col">
+        <!-- Top Nav -->
+        <header class="bg-gradient-to-r from-blue-700 to-purple-700 shadow-md p-4 flex items-center justify-between">
+          <!-- <h2 class="text-xl font-semibold text-gray-800">Dashboard</h2> -->
+          <h1 class="text-2xl font-bold">Admin Panel</h1>
+
+          <div class="flex items-center space-x-4">
+            <!-- <input type="text" placeholder="Search..."
+              class="bg-gray-200 rounded px-4 py-2 focus:ring focus:outline-none" /> -->
+            <div class="relative">
+              <!-- <img src="https://via.placeholder.com/40" alt="Profile" class="w-10 h-10 rounded-full cursor-pointer" /> -->
+              <div class="absolute right-0 mt-2 w-48 bg-white border rounded shadow-md hidden  group-hover:block">
+                <!-- <a href="#" class="block py-2 px-4 hover:bg-gray-100">Settings</a>
+                <a href="#" class="block py-2 px-4 hover:bg-gray-100">Logout</a> -->
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <!-- Widgets Section -->
+        <section class="bg-rose-300 p-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <!-- Widget 1 -->
+          <div
+            class="bg-gradient-to-br from-purple-500 to-pink-500 text-white p-6 rounded shadow-lg flex flex-col justify-between">
+            <div>
+              <h3 class="text-xl font-semibold">Create Category</h3>
+              <p class="mt-4 text-3xl"></p>
+            </div>
+            <a href="{{url_for('online_voting.create_category')}}"
+              class="mt-4 bg-white text-purple-500 px-4 py-2 rounded hover:bg-purple-100 transition text-center">
+              Create
+            </a>
+          </div>
+
+          <!-- Widget 2 -->
+          <div
+            class="bg-gradient-to-br from-purple-500 to-pink-500 text-white p-6 rounded shadow-lg flex flex-col justify-between">
+            <div>
+              <h3 class="text-xl font-semibold">Create Candidates</h3>
+              <p class="mt-4 text-3xl"></p>
+            </div>
+            <a href="{{url_for('online_voting.create_candidates')}}"
+              class="mt-4 bg-white text-purple-500 px-4 py-2 rounded hover:bg-purple-100 transition text-center">
+              Create
+            </a>
+          </div>
+
+          <!-- Widget 3 -->
+          <div
+            class="bg-gradient-to-br from-orange-400 to-yellow-500 text-white p-6 rounded shadow-lg flex flex-col justify-between">
+            <div>
+              <h3 class="text-xl font-semibold">Create Election</h3>
+              <p class="mt-4 text-3xl"></p>
+            </div>
+            <a href="{{url_for('online_voting.create_election')}}"
+              class="mt-4 bg-white text-orange-500 px-4 py-2 rounded hover:bg-orange-100 transition text-center">
+              Create
+            </a>
+          </div>
+          <!-- Widget 4 -->
+          <div
+            class="bg-gradient-to-br from-orange-400 to-yellow-500 text-white p-6 rounded shadow-lg flex flex-col justify-between">
+            <div>
+              <h3 class="text-xl font-semibold">View Categories</h3>
+              <p class="mt-4 text-3xl"></p>
+            </div>
+            <a href="{{url_for('online_voting.category')}}"
+              class="mt-4 bg-white text-orange-500 px-4 py-2 rounded hover:bg-orange-100 transition text-center">
+              View
+            </a>
+          </div>
+          <!-- Widget 5 -->
+
+          <div
+            class="bg-gradient-to-br from-orange-400 to-yellow-500 text-white p-6 rounded shadow-lg flex flex-col justify-between">
+            <div>
+              <h3 class="text-xl font-semibold">View Logs</h3>
+              <p class="mt-4 text-3xl"></p>
+            </div>
+            <a href="{{url_for('online_voting.audit_logs')}}"
+              class="mt-4 bg-white text-orange-500 px-4 py-2 rounded hover:bg-orange-100 transition text-center">
+              View
+            </a>
+          </div>
+          <!-- Widget 6 -->
+
+          <div
+            class="bg-gradient-to-br from-orange-400 to-yellow-500 text-white p-6 rounded shadow-lg flex flex-col justify-between">
+            <div>
+              <h3 class="text-xl font-semibold">View Elections</h3>
+              <p class="mt-4 text-3xl"></p>
+            </div>
+            <a href="{{url_for('online_voting.audit_logs')}}"
+              class="mt-4 bg-white text-orange-500 px-4 py-2 rounded hover:bg-orange-100 transition text-center">
+              View
+            </a>
+          </div>
+          <!-- Widget 6 -->
+
+          <div
+            class="bg-gradient-to-br from-orange-400 to-yellow-500 text-white p-6 rounded shadow-lg flex flex-col justify-between">
+            <div>
+              <h3 class="text-xl font-semibold">Live Results</h3>
+              <p class="mt-4 text-3xl"></p>
+            </div>
+            <a href="{{url_for('online_voting.live_results')}}"
+              class="mt-4 bg-white text-orange-500 px-4 py-2 rounded hover:bg-orange-100 transition text-center">
+              View
+            </a>
+          </div>
+        </section>
+
+        <!-- Recent Activity -->
+        <!-- <section class="p-6">
+        <h3 class="text-lg font-bold mb-4">Recent Activity</h3>
+        <div class="bg-white rounded shadow-lg p-4">
+          <ul class="divide-y divide-gray-200">
+            <li class="py-3 flex justify-between">
+              <span>John Doe updated profile</span>
+              <span class="text-gray-500 text-sm">10 min ago</span>
+            </li>
+            <li class="py-3 flex justify-between">
+              <span>New user registered</span>
+              <span class="text-gray-500 text-sm">30 min ago</span>
+            </li>
+            <li class="py-3 flex justify-between">
+              <span>Server backup completed</span>
+              <span class="text-gray-500 text-sm">1 hour ago</span>
+            </li>
+          </ul>
+        </div>
+      </section> -->
+      </main>
+    </div>
+  </body>
+
+</html>

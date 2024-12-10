@@ -1,0 +1,100 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="relative">
+    <!-- Animated Background -->
+    <div class="absolute inset-0 z-0  animate-gradient-x opacity-75"></div>
+
+    <!-- Main Content -->
+    <div class="relative z-10 container mx-auto py-12">
+        <!-- Category Title -->
+        <div class="text-center mb-12">
+            <h1 class="text-5xl font-extrabold text-white drop-shadow-lg">{{ category.name }}</h1>
+            <p class="text-lg text-gray-200 mt-4">{{ category.description }}</p>
+        </div>
+
+        <!-- Candidates List -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            {% for candidate in candidates %}
+            <div 
+                class="relative bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 overflow-hidden transform hover:scale-105"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+            >
+                <!-- Ribbon Badge -->
+                {% if candidate.is_favorite %}
+                <div class="absolute top-0 right-0 bg-yellow-500 text-white text-xs font-bold py-1 px-3 rounded-bl-lg">
+                    Favorite
+                </div>
+                {% endif %}
+
+                <!-- Candidate Image -->
+                <div class="h-60 overflow-hidden">
+                    <img src="{{ url_for('static', filename='profile_pics/' + candidate.profile_pic) }}" 
+                         alt="{{ candidate.name }}" 
+                         class="h-full w-full object-cover rounded-t-lg transition-transform duration-500 hover:scale-110">
+                </div>
+
+                <!-- Candidate Details -->
+                <div class="p-6">
+                    <h2 class="text-2xl font-semibold text-gray-800">{{ candidate.name }}</h2>
+                    <p class="text-gray-600 mt-3 line-clamp-2">{{ candidate.biography }}</p>
+                    <ul class="mt-4 text-gray-700 space-y-2">
+                        <li class="hidden"><strong>Phone:</strong> {{ candidate.phone_number }}</li>
+                        <li><strong>Date of Birth:</strong> {{ candidate.date_of_birth.strftime('%B %d, %Y') }}</li>
+                        
+                    </ul>
+
+                    <!-- Vote Button -->
+                    {% if not current_user.votes | selectattr("category_id", "equalto", candidate.category_id) | list %}
+                    <form action="{{ url_for('online_voting.cast_vote', candidate_id=candidate.id, category_id=candidate.category_id) }}" 
+                          method="POST" class="mt-6">
+                        <button type="submit" 
+                                class="w-full bg-gradient-to-r from-green-400 to-green-600 text-white font-bold py-3 px-4 rounded-lg shadow hover:from-green-500 hover:to-green-700 transition-all duration-300">
+                            Vote
+                        </button>
+                    </form>
+                    {% else %}
+                    <p class="text-green-600 font-semibold mt-6">You have already voted in this category.</p>
+                    {% endif %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+
+        <!-- Back Button -->
+        <div class="mt-12 text-center">
+            <a href="{{ url_for('auth.index') }}" 
+               class="text-white font-medium py-2 px-6 bg-blue-600 rounded-lg shadow-md hover:bg-blue-700 transition-all duration-300">
+                Back to Categories
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- Include AOS Animation Library -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+<!-- Custom CSS for Animated Background -->
+<style>
+    @keyframes gradient-x {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+    .animate-gradient-x {
+        background-size: 200% 200%;
+        animation: gradient-x 6s ease infinite;
+    }
+</style>
+{% endblock %}

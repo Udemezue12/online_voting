@@ -1,0 +1,99 @@
+{% extends "base.html" %}
+
+{% block title %}Welcome to the Future of Voting{% endblock %}
+
+{% block content %}
+<div class="relative">
+    <!-- Animated Background -->
+    <div class="absolute inset-0 bg-gradient-to-br from-blue-600 via-indigo-600 to-purple-600 animate-gradient-x opacity-90"></div>
+
+    <!-- Main Content -->
+    <div class="relative z-10 max-w-7xl mx-auto px-6 py-20 text-white">
+        <!-- Hero Section -->
+        <section class="text-center">
+            <h1 class="text-5xl font-extrabold drop-shadow-lg mb-6">Secure Online Voting System</h1>
+            <p class="text-lg mb-8">Empowering elections with transparency, security, and real-time results.</p>
+            <a href="{{ url_for('auth.register') }}" 
+               class="bg-white text-blue-600 py-3 px-6 rounded-lg font-semibold shadow-lg hover:bg-gray-100 hover:shadow-xl transition-all duration-300">
+                Get Started
+            </a>
+        </section>
+
+        <!-- Features Section -->
+        <section class="mt-20">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold">Why Choose Our Platform?</h2>
+                <p class="text-gray-300 mt-4">Designed to meet the needs of modern elections with advanced features.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Feature 1 -->
+                <div class="p-8 bg-white rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300 text-center">
+                    <img src="/static/img/security.svg" alt="Security" class="w-20 mx-auto mb-6">
+                    <h3 class="text-xl font-semibold text-blue-600">Top-Notch Security</h3>
+                    <p class="text-gray-600 mt-4">Your votes are encrypted and stored securely to ensure integrity and privacy.</p>
+                </div>
+                <!-- Feature 2 -->
+                <div class="p-8 bg-white rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300 text-center">
+                    <img src="/static/img/weather-3.jpg" alt="Real-Time Results" class="w-20 mx-auto mb-6">
+                    <h3 class="text-xl font-semibold text-blue-600">Real-Time Results</h3>
+                    <p class="text-gray-600 mt-4">Track votes and view live results as elections progress.</p>
+                </div>
+                <!-- Feature 3 -->
+                <div class="p-8 bg-white rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300 text-center">
+                    <img src="/static/img/accessibility.svg" alt="Accessibility" class="w-20 mx-auto mb-6">
+                    <h3 class="text-xl font-semibold text-blue-600">Global Accessibility</h3>
+                    <p class="text-gray-600 mt-4">Accessible from anywhere, ensuring inclusivity for all users.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works Section -->
+        <section class="mt-20 bg-gray-50 py-16 rounded-lg shadow-inner">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-gray-800">How It Works</h2>
+                <p class="text-gray-600 mt-4">Simple steps to participate in a secure and transparent election process.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Step 1 -->
+                <div class="p-6 text-center">
+                    <div class="bg-blue-100 rounded-full w-16 h-16 mx-auto flex items-center justify-center text-blue-600 font-bold text-xl shadow-lg">1</div>
+                    <h3 class="text-lg font-semibold mt-4">Register</h3>
+                    <p class="text-gray-600 mt-2">Sign up and verify your account to get started.</p>
+                </div>
+                <!-- Step 2 -->
+                <div class="p-6 text-center">
+                    <div class="bg-blue-100 rounded-full w-16 h-16 mx-auto flex items-center justify-center text-blue-600 font-bold text-xl shadow-lg">2</div>
+                    <h3 class="text-lg font-semibold mt-4">Vote</h3>
+                    <p class="text-gray-600 mt-2">Cast your vote securely with just a few clicks.</p>
+                </div>
+                <!-- Step 3 -->
+                <div class="p-6 text-center">
+                    <div class="bg-blue-100 rounded-full w-16 h-16 mx-auto flex items-center justify-center text-blue-600 font-bold text-xl shadow-lg">3</div>
+                    <h3 class="text-lg font-semibold mt-4">Track Results</h3>
+                    <p class="text-gray-600 mt-2">View real-time updates of the election progress.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="mt-20 text-center">
+            <h2 class="text-4xl font-bold">Ready to Make a Difference?</h2>
+            <p class="text-gray-300 mt-4">Join us today and participate in the most secure online election system.</p>
+            <a href="/register" 
+               class="mt-6 inline-block bg-blue-600 text-white py-3 px-8 rounded-lg font-semibold shadow-lg hover:bg-blue-700 transition-all duration-300">
+                Register Now
+            </a>
+        </section>
+    </div>
+</div>
+
+<!-- Include AOS Animation Library -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+<!-- Custom CSS for Animated Background -->
+
+{% endblock %}

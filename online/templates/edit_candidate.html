@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+
+{% block content %}
+<header class="mb-8 text-center">
+    <h1 class="text-4xl font-bold text-white">Edit Candidate Details</h1>
+    <p class="text-lg text-gray-300 mt-2">Modify the information as needed</p>
+</header>
+
+<div class="w-full max-w-3xl bg-white bg-opacity-10 backdrop-blur-lg rounded-xl shadow-lg p-8 mx-auto">
+    <form method="POST" enctype="multipart/form-data">
+        {{ form.hidden_tag() }}
+        
+        <!-- Name -->
+        <div class="mb-4">
+            <label for="name" class="block text-lg text-gray-200 font-semibold">Candidate Name</label>
+            {{ form.name(class="w-full p-3 rounded-lg bg-white bg-opacity-20 text-white", id="name") }}
+            {% if form.name.errors %}
+            <p class="text-red-400 text-sm mt-1">{{ form.name.errors[0] }}</p>
+            {% endif %}
+        </div>
+
+        <!-- Phone Number -->
+        
+
+        <!-- Biography -->
+        <div class="mb-4">
+            <label for="biography" class="block text-lg text-gray-200 font-semibold">Biography</label>
+            {{ form.biography(class="w-full p-3 rounded-lg bg-white bg-opacity-20 text-white", id="biography") }}
+            {% if form.biography.errors %}
+            <p class="text-red-400 text-sm mt-1">{{ form.biography.errors[0] }}</p>
+            {% endif %}
+        </div>
+
+        <!-- Profile Picture -->
+        <div class="mb-4">
+            <label for="profile_pic" class="block text-lg text-gray-200 font-semibold">Profile Picture</label>
+            {{ form.profile_pic(class="w-full p-3 rounded-lg bg-white bg-opacity-20 text-white", id="profile_pic") }}
+            {% if form.profile_pic.errors %}
+            <p class="text-red-400 text-sm mt-1">{{ form.profile_pic.errors[0] }}</p>
+            {% endif %}
+        </div>
+
+        
+        <!-- Categories -->
+        <div class="mb-4">
+            <label for="categories" class="block text-lg text-gray-200 font-semibold">Categories</label>
+            {% if form.categories.choices %}
+                {{ form.categories(class="w-full p-3 rounded-lg bg-white bg-opacity-20 text-white", id="categories") }}
+            {% else %}
+                <p class="text-red-400 text-sm mt-1">No categories available. Please create a category first.</p>
+            {% endif %}
+            {% if form.categories.errors %}
+            <p class="text-red-400 text-sm mt-1">{{ form.categories.errors[0] }}</p>
+            {% endif %}
+        </div>
+
+        <!-- Election id -->
+
+        <div class="mb-4">
+            <label for="election_id" class="block text-lg text-gray-200 font-semibold">Election</label>
+            {{ form.election_id(class="w-full p-3 rounded-lg bg-white bg-opacity-20 text-white", id="election_id") }}
+            {% if form.election_id.errors %}
+            <p class="text-red-400 text-sm mt-1">{{ form.election_id.errors[0] }}</p>
+            {% endif %}
+        </div>
+
+        <!-- Submit Button -->
+        <div class="text-center">
+            <button type="submit" class="w-full bg-blue-500 hover:bg-blue-600 text-white py-3 px-4 rounded-lg shadow-md font-semibold transition">
+                Update Candidate
+            </button>
+        </div>
+    </form>
+</div>
+{% endblock %}

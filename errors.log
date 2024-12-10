@@ -1,0 +1,1046 @@
+2024-12-09 20:19:49,365 - WARNING -  * Debugger is active!
+2024-12-09 20:19:49,372 - INFO -  * Debugger PIN: 685-995-725
+2024-12-09 20:19:49,463 - INFO - 127.0.0.1 - - [09/Dec/2024 20:19:49] "GET / HTTP/1.1" 200 -
+2024-12-09 20:19:49,689 - INFO - 127.0.0.1 - - [09/Dec/2024 20:19:49] "[33mGET /static/img/security.svg HTTP/1.1[0m" 404 -
+2024-12-09 20:19:49,739 - INFO - 127.0.0.1 - - [09/Dec/2024 20:19:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-09 20:19:49,739 - INFO - 127.0.0.1 - - [09/Dec/2024 20:19:49] "[36mGET /static/img/weather-3.jpg HTTP/1.1[0m" 304 -
+2024-12-09 20:19:49,954 - INFO - 127.0.0.1 - - [09/Dec/2024 20:19:49] "[33mGET /static/img/accessibility.svg HTTP/1.1[0m" 404 -
+2024-12-09 20:19:50,373 - ERROR - Invalid password reset link accessed.
+2024-12-09 20:19:50,381 - INFO - 127.0.0.1 - - [09/Dec/2024 20:19:50] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-09 20:19:50,418 - INFO - 127.0.0.1 - - [09/Dec/2024 20:19:50] "GET /login HTTP/1.1" 200 -
+2024-12-09 20:19:52,153 - INFO - 127.0.0.1 - - [09/Dec/2024 20:19:52] "GET /login HTTP/1.1" 200 -
+2024-12-09 20:19:52,222 - INFO - 127.0.0.1 - - [09/Dec/2024 20:19:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-09 20:19:52,375 - ERROR - Invalid password reset link accessed.
+2024-12-09 20:19:52,376 - INFO - 127.0.0.1 - - [09/Dec/2024 20:19:52] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-09 20:19:52,388 - INFO - 127.0.0.1 - - [09/Dec/2024 20:19:52] "GET /login HTTP/1.1" 200 -
+2024-12-09 20:19:54,132 - ERROR - Reset password form submission failed validation.
+2024-12-09 20:19:54,139 - INFO - 127.0.0.1 - - [09/Dec/2024 20:19:54] "GET /reset_password HTTP/1.1" 200 -
+2024-12-09 20:19:54,170 - INFO - 127.0.0.1 - - [09/Dec/2024 20:19:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-09 20:19:54,301 - ERROR - Invalid password reset link accessed.
+2024-12-09 20:19:54,302 - INFO - 127.0.0.1 - - [09/Dec/2024 20:19:54] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-09 20:19:54,311 - INFO - 127.0.0.1 - - [09/Dec/2024 20:19:54] "GET /login HTTP/1.1" 200 -
+2024-12-09 20:19:58,162 - ERROR - Reset password form submission failed validation.
+2024-12-09 20:19:58,162 - INFO - 127.0.0.1 - - [09/Dec/2024 20:19:58] "POST /reset_password HTTP/1.1" 200 -
+2024-12-09 20:19:58,192 - INFO - 127.0.0.1 - - [09/Dec/2024 20:19:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-09 20:19:58,272 - ERROR - Invalid password reset link accessed.
+2024-12-09 20:19:58,273 - INFO - 127.0.0.1 - - [09/Dec/2024 20:19:58] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-09 20:19:58,281 - INFO - 127.0.0.1 - - [09/Dec/2024 20:19:58] "GET /login HTTP/1.1" 200 -
+2024-12-09 20:25:49,220 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\auth\\routes.py', reloading
+2024-12-09 20:25:53,728 - WARNING -  * Debugger is active!
+2024-12-09 20:25:53,735 - INFO -  * Debugger PIN: 685-995-725
+2024-12-09 20:25:59,290 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\auth\\routes.py', reloading
+2024-12-09 20:26:05,622 - WARNING -  * Debugger is active!
+2024-12-09 20:26:05,626 - INFO -  * Debugger PIN: 685-995-725
+2024-12-09 20:26:14,011 - INFO - 127.0.0.1 - - [09/Dec/2024 20:26:14] "GET / HTTP/1.1" 200 -
+2024-12-09 20:26:14,224 - INFO - 127.0.0.1 - - [09/Dec/2024 20:26:14] "[36mGET /static/img/weather-3.jpg HTTP/1.1[0m" 304 -
+2024-12-09 20:26:14,227 - INFO - 127.0.0.1 - - [09/Dec/2024 20:26:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-09 20:26:14,236 - INFO - 127.0.0.1 - - [09/Dec/2024 20:26:14] "[33mGET /static/img/security.svg HTTP/1.1[0m" 404 -
+2024-12-09 20:26:14,449 - INFO - 127.0.0.1 - - [09/Dec/2024 20:26:14] "[33mGET /static/img/accessibility.svg HTTP/1.1[0m" 404 -
+2024-12-09 20:26:14,711 - ERROR - Invalid password reset link accessed.
+2024-12-09 20:26:14,719 - INFO - 127.0.0.1 - - [09/Dec/2024 20:26:14] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-09 20:26:14,806 - INFO - 127.0.0.1 - - [09/Dec/2024 20:26:14] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2024-12-09 20:26:16,108 - INFO - 127.0.0.1 - - [09/Dec/2024 20:26:16] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2024-12-09 20:26:16,211 - INFO - 127.0.0.1 - - [09/Dec/2024 20:26:16] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-09 20:26:16,236 - INFO - 127.0.0.1 - - [09/Dec/2024 20:26:16] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-09 20:26:16,343 - INFO - 127.0.0.1 - - [09/Dec/2024 20:26:16] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=yUHxlT4SctrPuvI7cHk6 HTTP/1.1" 200 -
+2024-12-09 20:26:16,467 - INFO - 127.0.0.1 - - [09/Dec/2024 20:26:16] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-09 20:27:06,015 - INFO - 127.0.0.1 - - [09/Dec/2024 20:27:06] "GET /login HTTP/1.1" 200 -
+2024-12-09 20:27:06,105 - INFO - 127.0.0.1 - - [09/Dec/2024 20:27:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-09 20:27:06,243 - ERROR - Invalid password reset link accessed.
+2024-12-09 20:27:06,243 - INFO - 127.0.0.1 - - [09/Dec/2024 20:27:06] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-09 20:27:06,250 - INFO - 127.0.0.1 - - [09/Dec/2024 20:27:06] "GET /login HTTP/1.1" 200 -
+2024-12-09 20:27:08,619 - ERROR - Reset password form submission failed validation.
+2024-12-09 20:27:08,679 - INFO - 127.0.0.1 - - [09/Dec/2024 20:27:08] "GET /reset_password HTTP/1.1" 200 -
+2024-12-09 20:27:08,734 - INFO - 127.0.0.1 - - [09/Dec/2024 20:27:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-09 20:27:08,841 - ERROR - Invalid password reset link accessed.
+2024-12-09 20:27:08,841 - INFO - 127.0.0.1 - - [09/Dec/2024 20:27:08] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-09 20:27:08,848 - INFO - 127.0.0.1 - - [09/Dec/2024 20:27:08] "GET /login HTTP/1.1" 200 -
+2024-12-09 20:27:12,486 - ERROR - Reset password form submission failed validation.
+2024-12-09 20:27:12,486 - INFO - 127.0.0.1 - - [09/Dec/2024 20:27:12] "POST /reset_password HTTP/1.1" 200 -
+2024-12-09 20:27:12,520 - INFO - 127.0.0.1 - - [09/Dec/2024 20:27:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-09 20:27:12,584 - ERROR - Invalid password reset link accessed.
+2024-12-09 20:27:12,586 - INFO - 127.0.0.1 - - [09/Dec/2024 20:27:12] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-09 20:27:12,587 - INFO - 127.0.0.1 - - [09/Dec/2024 20:27:12] "GET /login HTTP/1.1" 200 -
+2024-12-09 20:27:26,863 - INFO - 127.0.0.1 - - [09/Dec/2024 20:27:26] "GET /login HTTP/1.1" 200 -
+2024-12-09 20:27:26,893 - INFO - 127.0.0.1 - - [09/Dec/2024 20:27:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-09 20:27:26,986 - ERROR - Invalid password reset link accessed.
+2024-12-09 20:27:26,986 - INFO - 127.0.0.1 - - [09/Dec/2024 20:27:26] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-09 20:27:26,997 - INFO - 127.0.0.1 - - [09/Dec/2024 20:27:26] "GET /login HTTP/1.1" 200 -
+2024-12-09 20:27:29,031 - ERROR - Reset password form submission failed validation.
+2024-12-09 20:27:29,034 - INFO - 127.0.0.1 - - [09/Dec/2024 20:27:29] "GET /reset_password HTTP/1.1" 200 -
+2024-12-09 20:27:29,066 - INFO - 127.0.0.1 - - [09/Dec/2024 20:27:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-09 20:27:29,146 - ERROR - Invalid password reset link accessed.
+2024-12-09 20:27:29,147 - INFO - 127.0.0.1 - - [09/Dec/2024 20:27:29] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-09 20:27:29,153 - INFO - 127.0.0.1 - - [09/Dec/2024 20:27:29] "GET /login HTTP/1.1" 200 -
+2024-12-09 20:27:34,779 - ERROR - Reset password form submission failed validation.
+2024-12-09 20:27:34,783 - INFO - 127.0.0.1 - - [09/Dec/2024 20:27:34] "POST /reset_password HTTP/1.1" 200 -
+2024-12-09 20:27:34,804 - INFO - 127.0.0.1 - - [09/Dec/2024 20:27:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-09 20:27:34,898 - ERROR - Invalid password reset link accessed.
+2024-12-09 20:27:34,899 - INFO - 127.0.0.1 - - [09/Dec/2024 20:27:34] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-09 20:27:34,910 - INFO - 127.0.0.1 - - [09/Dec/2024 20:27:34] "GET /login HTTP/1.1" 200 -
+2024-12-09 20:27:51,805 - INFO - 127.0.0.1 - - [09/Dec/2024 20:27:51] "GET /login HTTP/1.1" 200 -
+2024-12-09 20:27:51,834 - INFO - 127.0.0.1 - - [09/Dec/2024 20:27:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-09 20:27:51,964 - ERROR - Invalid password reset link accessed.
+2024-12-09 20:27:51,966 - INFO - 127.0.0.1 - - [09/Dec/2024 20:27:51] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-09 20:27:51,972 - INFO - 127.0.0.1 - - [09/Dec/2024 20:27:51] "GET /login HTTP/1.1" 200 -
+2024-12-09 20:27:53,972 - ERROR - Reset password form submission failed validation.
+2024-12-09 20:27:53,974 - INFO - 127.0.0.1 - - [09/Dec/2024 20:27:53] "GET /reset_password HTTP/1.1" 200 -
+2024-12-09 20:27:54,007 - INFO - 127.0.0.1 - - [09/Dec/2024 20:27:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-09 20:27:54,111 - ERROR - Invalid password reset link accessed.
+2024-12-09 20:27:54,113 - INFO - 127.0.0.1 - - [09/Dec/2024 20:27:54] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-09 20:27:54,124 - INFO - 127.0.0.1 - - [09/Dec/2024 20:27:54] "GET /login HTTP/1.1" 200 -
+2024-12-09 20:33:59,804 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\auth\\routes.py', reloading
+2024-12-09 20:45:42,864 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+2024-12-09 20:45:42,864 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-09 20:45:42,864 - INFO -  * Restarting with stat
+2024-12-09 20:45:44,935 - WARNING -  * Debugger is active!
+2024-12-09 20:45:44,935 - INFO -  * Debugger PIN: 685-995-725
+2024-12-09 20:46:48,225 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\config.py', reloading
+2024-12-09 20:46:49,475 - INFO -  * Restarting with stat
+2024-12-09 20:46:54,103 - WARNING -  * Debugger is active!
+2024-12-09 20:46:54,127 - INFO -  * Debugger PIN: 685-995-725
+2024-12-09 20:46:55,517 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\config.py', reloading
+2024-12-09 20:46:55,976 - INFO -  * Restarting with stat
+2024-12-09 20:48:19,775 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+2024-12-09 20:48:19,775 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-09 20:48:19,775 - INFO -  * Restarting with stat
+2024-12-09 20:48:22,118 - WARNING -  * Debugger is active!
+2024-12-09 20:48:22,130 - INFO -  * Debugger PIN: 685-995-725
+2024-12-09 20:48:26,486 - INFO - 127.0.0.1 - - [09/Dec/2024 20:48:26] "GET / HTTP/1.1" 200 -
+2024-12-09 20:48:27,063 - INFO - 127.0.0.1 - - [09/Dec/2024 20:48:27] "[33mGET /static/img/security.svg HTTP/1.1[0m" 404 -
+2024-12-09 20:48:27,114 - INFO - 127.0.0.1 - - [09/Dec/2024 20:48:27] "[33mGET /static/img/accessibility.svg HTTP/1.1[0m" 404 -
+2024-12-09 20:48:27,281 - INFO - 127.0.0.1 - - [09/Dec/2024 20:48:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-09 20:48:27,291 - INFO - 127.0.0.1 - - [09/Dec/2024 20:48:27] "[36mGET /static/img/weather-3.jpg HTTP/1.1[0m" 304 -
+2024-12-09 20:48:28,258 - ERROR - Invalid password reset link accessed.
+2024-12-09 20:48:28,487 - INFO - 127.0.0.1 - - [09/Dec/2024 20:48:28] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-09 20:48:29,876 - INFO - 127.0.0.1 - - [09/Dec/2024 20:48:29] "GET /login HTTP/1.1" 200 -
+2024-12-09 20:48:29,936 - INFO - 127.0.0.1 - - [09/Dec/2024 20:48:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-09 20:48:30,137 - ERROR - Invalid password reset link accessed.
+2024-12-09 20:48:30,159 - INFO - 127.0.0.1 - - [09/Dec/2024 20:48:30] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-09 20:48:31,268 - ERROR - Form validation errors: {}
+2024-12-09 20:48:31,280 - INFO - 127.0.0.1 - - [09/Dec/2024 20:48:31] "GET /reset_password HTTP/1.1" 200 -
+2024-12-09 20:48:31,318 - INFO - 127.0.0.1 - - [09/Dec/2024 20:48:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-09 20:48:31,464 - ERROR - Invalid password reset link accessed.
+2024-12-09 20:48:31,493 - INFO - 127.0.0.1 - - [09/Dec/2024 20:48:31] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-09 20:48:34,296 - ERROR - Form validation errors: {'email': ['There is no account with that email. You must register first.']}
+2024-12-09 20:48:34,306 - INFO - 127.0.0.1 - - [09/Dec/2024 20:48:34] "POST /reset_password HTTP/1.1" 200 -
+2024-12-09 20:48:34,339 - INFO - 127.0.0.1 - - [09/Dec/2024 20:48:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-09 20:48:34,454 - ERROR - Invalid password reset link accessed.
+2024-12-09 20:48:34,475 - INFO - 127.0.0.1 - - [09/Dec/2024 20:48:34] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-09 20:49:25,240 - INFO - 127.0.0.1 - - [09/Dec/2024 20:49:25] "GET / HTTP/1.1" 200 -
+2024-12-09 20:49:25,775 - INFO - 127.0.0.1 - - [09/Dec/2024 20:49:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-09 20:49:25,783 - INFO - 127.0.0.1 - - [09/Dec/2024 20:49:25] "[36mGET /static/img/weather-3.jpg HTTP/1.1[0m" 304 -
+2024-12-09 20:49:25,862 - INFO - 127.0.0.1 - - [09/Dec/2024 20:49:25] "[33mGET /static/img/security.svg HTTP/1.1[0m" 404 -
+2024-12-09 20:49:26,701 - INFO - 127.0.0.1 - - [09/Dec/2024 20:49:26] "[33mGET /static/img/accessibility.svg HTTP/1.1[0m" 404 -
+2024-12-09 20:49:49,236 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+2024-12-09 20:49:49,236 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-09 20:49:49,236 - INFO -  * Restarting with stat
+2024-12-09 20:49:53,035 - WARNING -  * Debugger is active!
+2024-12-09 20:49:53,056 - INFO -  * Debugger PIN: 685-995-725
+2024-12-09 20:49:53,459 - INFO - 127.0.0.1 - - [09/Dec/2024 20:49:53] "GET / HTTP/1.1" 200 -
+2024-12-09 20:49:53,716 - INFO - 127.0.0.1 - - [09/Dec/2024 20:49:53] "[33mGET /static/img/security.svg HTTP/1.1[0m" 404 -
+2024-12-09 20:49:53,740 - INFO - 127.0.0.1 - - [09/Dec/2024 20:49:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-09 20:49:53,784 - INFO - 127.0.0.1 - - [09/Dec/2024 20:49:53] "[36mGET /static/img/weather-3.jpg HTTP/1.1[0m" 304 -
+2024-12-09 20:49:53,974 - INFO - 127.0.0.1 - - [09/Dec/2024 20:49:53] "[33mGET /static/img/accessibility.svg HTTP/1.1[0m" 404 -
+2024-12-09 20:49:54,236 - ERROR - Invalid password reset link accessed.
+2024-12-09 20:49:54,385 - INFO - 127.0.0.1 - - [09/Dec/2024 20:49:54] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-09 20:50:37,305 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+2024-12-09 20:50:37,305 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-09 20:50:37,305 - INFO -  * Restarting with stat
+2024-12-09 20:50:39,759 - WARNING -  * Debugger is active!
+2024-12-09 20:50:39,763 - INFO -  * Debugger PIN: 685-995-725
+2024-12-09 20:50:40,565 - INFO - 127.0.0.1 - - [09/Dec/2024 20:50:40] "GET / HTTP/1.1" 200 -
+2024-12-09 20:50:40,763 - INFO - 127.0.0.1 - - [09/Dec/2024 20:50:40] "[33mGET /static/img/security.svg HTTP/1.1[0m" 404 -
+2024-12-09 20:50:40,803 - INFO - 127.0.0.1 - - [09/Dec/2024 20:50:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-09 20:50:40,820 - INFO - 127.0.0.1 - - [09/Dec/2024 20:50:40] "[36mGET /static/img/weather-3.jpg HTTP/1.1[0m" 304 -
+2024-12-09 20:50:40,953 - INFO - 127.0.0.1 - - [09/Dec/2024 20:50:40] "[33mGET /static/img/accessibility.svg HTTP/1.1[0m" 404 -
+2024-12-09 20:50:41,153 - ERROR - Invalid password reset link accessed.
+2024-12-09 20:50:41,188 - INFO - 127.0.0.1 - - [09/Dec/2024 20:50:41] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-12-09 20:51:02,518 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\auth\\routes.py', reloading
+2024-12-09 20:51:03,000 - INFO -  * Restarting with stat
+2024-12-09 20:51:07,695 - WARNING -  * Debugger is active!
+2024-12-09 20:51:07,700 - INFO -  * Debugger PIN: 685-995-725
+2024-12-09 20:51:17,451 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\auth\\routes.py', reloading
+2024-12-09 20:51:17,766 - INFO -  * Restarting with stat
+2024-12-09 20:51:20,671 - WARNING -  * Debugger is active!
+2024-12-09 20:51:20,671 - INFO -  * Debugger PIN: 685-995-725
+2024-12-09 20:51:25,088 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\auth\\routes.py', reloading
+2024-12-09 20:51:25,317 - INFO -  * Restarting with stat
+2024-12-09 20:51:27,634 - WARNING -  * Debugger is active!
+2024-12-09 20:51:27,634 - INFO -  * Debugger PIN: 685-995-725
+2024-12-09 20:51:35,884 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+2024-12-09 20:51:35,884 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-09 20:51:35,884 - INFO -  * Restarting with stat
+2024-12-09 20:51:40,512 - WARNING -  * Debugger is active!
+2024-12-09 20:51:40,518 - INFO -  * Debugger PIN: 685-995-725
+2024-12-09 20:51:40,686 - INFO - 127.0.0.1 - - [09/Dec/2024 20:51:40] "GET / HTTP/1.1" 200 -
+2024-12-09 20:51:40,901 - INFO - 127.0.0.1 - - [09/Dec/2024 20:51:40] "[33mGET /static/img/security.svg HTTP/1.1[0m" 404 -
+2024-12-09 20:51:40,976 - INFO - 127.0.0.1 - - [09/Dec/2024 20:51:40] "[36mGET /static/img/weather-3.jpg HTTP/1.1[0m" 304 -
+2024-12-09 20:51:40,988 - INFO - 127.0.0.1 - - [09/Dec/2024 20:51:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-09 20:51:41,097 - INFO - 127.0.0.1 - - [09/Dec/2024 20:51:41] "[33mGET /static/img/accessibility.svg HTTP/1.1[0m" 404 -
+2024-12-09 20:51:42,585 - ERROR - Invalid password reset link accessed.
+2024-12-09 20:51:42,589 - INFO - 127.0.0.1 - - [09/Dec/2024 20:51:42] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-09 20:51:42,674 - ERROR - Form validation errors: {}
+2024-12-09 20:51:42,678 - INFO - 127.0.0.1 - - [09/Dec/2024 20:51:42] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-09 20:51:46,290 - INFO - 127.0.0.1 - - [09/Dec/2024 20:51:46] "GET / HTTP/1.1" 200 -
+2024-12-09 20:51:46,380 - INFO - 127.0.0.1 - - [09/Dec/2024 20:51:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-09 20:51:46,419 - INFO - 127.0.0.1 - - [09/Dec/2024 20:51:46] "[36mGET /static/img/weather-3.jpg HTTP/1.1[0m" 304 -
+2024-12-09 20:51:46,430 - INFO - 127.0.0.1 - - [09/Dec/2024 20:51:46] "[33mGET /static/img/security.svg HTTP/1.1[0m" 404 -
+2024-12-09 20:51:46,480 - INFO - 127.0.0.1 - - [09/Dec/2024 20:51:46] "[33mGET /static/img/accessibility.svg HTTP/1.1[0m" 404 -
+2024-12-09 20:51:46,546 - ERROR - Invalid password reset link accessed.
+2024-12-09 20:51:46,546 - INFO - 127.0.0.1 - - [09/Dec/2024 20:51:46] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-09 20:51:46,570 - ERROR - Form validation errors: {}
+2024-12-09 20:51:46,576 - INFO - 127.0.0.1 - - [09/Dec/2024 20:51:46] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-09 20:51:51,691 - INFO - 127.0.0.1 - - [09/Dec/2024 20:51:51] "GET /login HTTP/1.1" 200 -
+2024-12-09 20:51:51,762 - INFO - 127.0.0.1 - - [09/Dec/2024 20:51:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-09 20:51:51,927 - ERROR - Invalid password reset link accessed.
+2024-12-09 20:51:51,927 - INFO - 127.0.0.1 - - [09/Dec/2024 20:51:51] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-09 20:51:51,948 - ERROR - Form validation errors: {}
+2024-12-09 20:51:51,951 - INFO - 127.0.0.1 - - [09/Dec/2024 20:51:51] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-09 20:51:52,993 - ERROR - Form validation errors: {}
+2024-12-09 20:51:52,997 - INFO - 127.0.0.1 - - [09/Dec/2024 20:51:52] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-09 20:51:53,052 - INFO - 127.0.0.1 - - [09/Dec/2024 20:51:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-09 20:51:53,168 - ERROR - Invalid password reset link accessed.
+2024-12-09 20:51:53,169 - INFO - 127.0.0.1 - - [09/Dec/2024 20:51:53] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-09 20:51:53,182 - ERROR - Form validation errors: {}
+2024-12-09 20:51:53,187 - INFO - 127.0.0.1 - - [09/Dec/2024 20:51:53] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-09 20:51:55,987 - ERROR - Form validation errors: {'email': ['There is no account with that email. You must register first.']}
+2024-12-09 20:51:55,987 - INFO - 127.0.0.1 - - [09/Dec/2024 20:51:55] "POST /forgot_password HTTP/1.1" 200 -
+2024-12-09 20:51:56,019 - INFO - 127.0.0.1 - - [09/Dec/2024 20:51:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-09 20:51:56,135 - ERROR - Invalid password reset link accessed.
+2024-12-09 20:51:56,135 - INFO - 127.0.0.1 - - [09/Dec/2024 20:51:56] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-09 20:51:56,150 - ERROR - Form validation errors: {}
+2024-12-09 20:51:56,155 - INFO - 127.0.0.1 - - [09/Dec/2024 20:51:56] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 01:22:41,567 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\models.py', reloading
+2024-12-10 01:22:42,689 - INFO -  * Restarting with stat
+2024-12-10 01:22:46,232 - WARNING -  * Debugger is active!
+2024-12-10 01:22:46,239 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 01:22:54,707 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\models.py', reloading
+2024-12-10 01:22:54,946 - INFO -  * Restarting with stat
+2024-12-10 01:22:57,314 - WARNING -  * Debugger is active!
+2024-12-10 01:22:57,330 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 01:23:02,811 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\models.py', reloading
+2024-12-10 01:23:03,228 - INFO -  * Restarting with stat
+2024-12-10 01:23:05,279 - WARNING -  * Debugger is active!
+2024-12-10 01:23:05,279 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 01:24:05,660 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\vote\\routes.py', reloading
+2024-12-10 01:24:05,926 - INFO -  * Restarting with stat
+2024-12-10 01:24:07,979 - WARNING -  * Debugger is active!
+2024-12-10 01:24:07,985 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 01:24:22,706 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\vote\\routes.py', reloading
+2024-12-10 01:24:23,076 - INFO -  * Restarting with stat
+2024-12-10 01:24:26,816 - WARNING -  * Debugger is active!
+2024-12-10 01:24:26,826 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 01:24:32,409 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\vote\\routes.py', reloading
+2024-12-10 01:24:32,922 - INFO -  * Restarting with stat
+2024-12-10 01:24:35,697 - WARNING -  * Debugger is active!
+2024-12-10 01:24:35,697 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 01:24:41,498 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\vote\\routes.py', reloading
+2024-12-10 01:24:42,087 - INFO -  * Restarting with stat
+2024-12-10 01:24:44,684 - WARNING -  * Debugger is active!
+2024-12-10 01:24:44,684 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 01:24:53,316 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\vote\\routes.py', reloading
+2024-12-10 01:24:53,583 - INFO -  * Restarting with stat
+2024-12-10 01:24:55,921 - WARNING -  * Debugger is active!
+2024-12-10 01:24:55,937 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 01:24:59,219 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\vote\\routes.py', reloading
+2024-12-10 01:24:59,500 - INFO -  * Restarting with stat
+2024-12-10 01:25:01,688 - WARNING -  * Debugger is active!
+2024-12-10 01:25:01,688 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 01:25:07,099 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\vote\\routes.py', reloading
+2024-12-10 01:25:07,517 - INFO -  * Restarting with stat
+2024-12-10 01:25:11,890 - WARNING -  * Debugger is active!
+2024-12-10 01:25:11,895 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 01:25:14,240 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\vote\\routes.py', reloading
+2024-12-10 01:25:14,546 - INFO -  * Restarting with stat
+2024-12-10 01:25:17,565 - WARNING -  * Debugger is active!
+2024-12-10 01:25:17,572 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 01:25:26,672 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\vote\\forms.py', reloading
+2024-12-10 01:25:26,987 - INFO -  * Restarting with stat
+2024-12-10 01:25:30,080 - WARNING -  * Debugger is active!
+2024-12-10 01:25:30,085 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 01:25:32,408 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\vote\\forms.py', reloading
+2024-12-10 01:25:32,630 - INFO -  * Restarting with stat
+2024-12-10 01:25:34,869 - WARNING -  * Debugger is active!
+2024-12-10 01:25:34,873 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 01:25:41,370 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\vote\\forms.py', reloading
+2024-12-10 01:25:41,651 - INFO -  * Restarting with stat
+2024-12-10 01:25:43,792 - WARNING -  * Debugger is active!
+2024-12-10 01:25:43,792 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 01:25:59,028 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\vote\\routes.py', reloading
+2024-12-10 01:25:59,298 - INFO -  * Restarting with stat
+2024-12-10 01:26:01,878 - WARNING -  * Debugger is active!
+2024-12-10 01:26:01,883 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 01:26:06,227 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\vote\\routes.py', reloading
+2024-12-10 01:26:06,428 - INFO -  * Restarting with stat
+2024-12-10 01:26:08,729 - WARNING -  * Debugger is active!
+2024-12-10 01:26:08,732 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 01:26:14,204 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\vote\\routes.py', reloading
+2024-12-10 01:26:14,427 - INFO -  * Restarting with stat
+2024-12-10 01:26:16,600 - WARNING -  * Debugger is active!
+2024-12-10 01:26:16,603 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 01:26:24,107 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\vote\\routes.py', reloading
+2024-12-10 01:26:24,353 - INFO -  * Restarting with stat
+2024-12-10 01:26:27,758 - WARNING -  * Debugger is active!
+2024-12-10 01:26:27,760 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 01:26:36,252 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\vote\\routes.py', reloading
+2024-12-10 01:26:36,479 - INFO -  * Restarting with stat
+2024-12-10 01:26:39,533 - WARNING -  * Debugger is active!
+2024-12-10 01:26:39,536 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 01:27:07,444 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\vote\\routes.py', reloading
+2024-12-10 01:27:07,996 - INFO -  * Restarting with stat
+2024-12-10 01:27:11,399 - WARNING -  * Debugger is active!
+2024-12-10 01:27:11,406 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 01:27:21,195 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\vote\\routes.py', reloading
+2024-12-10 01:27:21,433 - INFO -  * Restarting with stat
+2024-12-10 01:27:23,876 - WARNING -  * Debugger is active!
+2024-12-10 01:27:23,891 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 01:27:25,188 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\vote\\routes.py', reloading
+2024-12-10 01:27:25,388 - INFO -  * Restarting with stat
+2024-12-10 01:27:30,039 - WARNING -  * Debugger is active!
+2024-12-10 01:27:30,046 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 01:27:33,400 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\vote\\routes.py', reloading
+2024-12-10 01:27:33,632 - INFO -  * Restarting with stat
+2024-12-10 01:27:35,636 - WARNING -  * Debugger is active!
+2024-12-10 01:27:35,638 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 01:28:09,551 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\vote\\routes.py', reloading
+2024-12-10 01:28:10,227 - INFO -  * Restarting with stat
+2024-12-10 01:28:14,393 - WARNING -  * Debugger is active!
+2024-12-10 01:28:14,410 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 01:28:30,371 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\vote\\routes.py', reloading
+2024-12-10 01:28:30,788 - INFO -  * Restarting with stat
+2024-12-10 01:28:36,718 - WARNING -  * Debugger is active!
+2024-12-10 01:28:36,745 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 01:28:42,032 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\vote\\routes.py', reloading
+2024-12-10 01:28:42,989 - INFO -  * Restarting with stat
+2024-12-10 01:28:46,586 - WARNING -  * Debugger is active!
+2024-12-10 01:28:46,592 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 01:28:52,075 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\vote\\routes.py', reloading
+2024-12-10 01:28:52,262 - INFO -  * Restarting with stat
+2024-12-10 01:28:54,361 - WARNING -  * Debugger is active!
+2024-12-10 01:28:54,361 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 01:28:59,214 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\vote\\routes.py', reloading
+2024-12-10 01:29:00,357 - INFO -  * Restarting with stat
+2024-12-10 01:29:04,268 - WARNING -  * Debugger is active!
+2024-12-10 01:29:04,273 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 01:29:05,503 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\vote\\routes.py', reloading
+2024-12-10 01:29:05,741 - INFO -  * Restarting with stat
+2024-12-10 01:29:08,256 - WARNING -  * Debugger is active!
+2024-12-10 01:29:08,256 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 01:29:09,413 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\vote\\routes.py', reloading
+2024-12-10 01:29:09,626 - INFO -  * Restarting with stat
+2024-12-10 01:29:11,566 - WARNING -  * Debugger is active!
+2024-12-10 01:29:11,566 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 01:29:16,985 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\vote\\routes.py', reloading
+2024-12-10 01:29:17,502 - INFO -  * Restarting with stat
+2024-12-10 01:29:19,853 - WARNING -  * Debugger is active!
+2024-12-10 01:29:19,855 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 01:29:23,093 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\vote\\routes.py', reloading
+2024-12-10 01:29:23,265 - INFO -  * Restarting with stat
+2024-12-10 01:29:25,852 - WARNING -  * Debugger is active!
+2024-12-10 01:29:25,852 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 01:29:28,148 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\vote\\routes.py', reloading
+2024-12-10 01:29:28,458 - INFO -  * Restarting with stat
+2024-12-10 01:29:31,027 - WARNING -  * Debugger is active!
+2024-12-10 01:29:31,037 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 01:29:32,224 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\vote\\routes.py', reloading
+2024-12-10 01:29:32,513 - INFO -  * Restarting with stat
+2024-12-10 01:29:35,593 - WARNING -  * Debugger is active!
+2024-12-10 01:29:35,597 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 01:29:36,800 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\vote\\routes.py', reloading
+2024-12-10 01:29:37,123 - INFO -  * Restarting with stat
+2024-12-10 01:29:40,197 - WARNING -  * Debugger is active!
+2024-12-10 01:29:40,197 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 01:29:42,472 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\vote\\routes.py', reloading
+2024-12-10 01:29:42,710 - INFO -  * Restarting with stat
+2024-12-10 01:29:44,723 - WARNING -  * Debugger is active!
+2024-12-10 01:29:44,737 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 01:29:50,350 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\vote\\routes.py', reloading
+2024-12-10 01:29:50,956 - INFO -  * Restarting with stat
+2024-12-10 01:29:53,852 - WARNING -  * Debugger is active!
+2024-12-10 01:29:53,852 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 01:29:55,039 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\vote\\routes.py', reloading
+2024-12-10 01:29:55,342 - INFO -  * Restarting with stat
+2024-12-10 01:29:58,363 - WARNING -  * Debugger is active!
+2024-12-10 01:29:58,366 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 01:30:03,754 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\vote\\routes.py', reloading
+2024-12-10 01:30:03,977 - INFO -  * Restarting with stat
+2024-12-10 01:30:06,316 - WARNING -  * Debugger is active!
+2024-12-10 01:30:06,321 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 01:30:10,655 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\vote\\routes.py', reloading
+2024-12-10 01:30:10,841 - INFO -  * Restarting with stat
+2024-12-10 01:30:13,210 - WARNING -  * Debugger is active!
+2024-12-10 01:30:13,212 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 01:30:16,514 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\vote\\routes.py', reloading
+2024-12-10 01:30:16,713 - INFO -  * Restarting with stat
+2024-12-10 01:30:18,752 - WARNING -  * Debugger is active!
+2024-12-10 01:30:18,752 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 01:30:24,136 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\vote\\routes.py', reloading
+2024-12-10 01:30:24,580 - INFO -  * Restarting with stat
+2024-12-10 01:30:26,895 - WARNING -  * Debugger is active!
+2024-12-10 01:30:26,911 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 01:31:00,899 - INFO - 127.0.0.1 - - [10/Dec/2024 01:31:00] "[31m[1mPOST /forgot_password HTTP/1.1[0m" 400 -
+2024-12-10 01:31:01,058 - INFO - 127.0.0.1 - - [10/Dec/2024 01:31:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 01:31:03,852 - ERROR - Invalid password reset link accessed.
+2024-12-10 01:31:03,867 - INFO - 127.0.0.1 - - [10/Dec/2024 01:31:03] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 01:31:03,901 - ERROR - Form validation errors: {}
+2024-12-10 01:31:03,920 - INFO - 127.0.0.1 - - [10/Dec/2024 01:31:03] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 01:31:40,951 - INFO - 127.0.0.1 - - [10/Dec/2024 01:31:40] "GET / HTTP/1.1" 200 -
+2024-12-10 01:31:41,127 - INFO - 127.0.0.1 - - [10/Dec/2024 01:31:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 01:31:41,147 - INFO - 127.0.0.1 - - [10/Dec/2024 01:31:41] "[33mGET /static/img/security.svg HTTP/1.1[0m" 404 -
+2024-12-10 01:31:41,148 - INFO - 127.0.0.1 - - [10/Dec/2024 01:31:41] "[36mGET /static/img/weather-3.jpg HTTP/1.1[0m" 304 -
+2024-12-10 01:31:41,361 - INFO - 127.0.0.1 - - [10/Dec/2024 01:31:41] "[33mGET /static/img/accessibility.svg HTTP/1.1[0m" 404 -
+2024-12-10 01:31:41,668 - ERROR - Invalid password reset link accessed.
+2024-12-10 01:31:41,698 - INFO - 127.0.0.1 - - [10/Dec/2024 01:31:41] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 01:31:41,772 - ERROR - Form validation errors: {}
+2024-12-10 01:31:41,777 - INFO - 127.0.0.1 - - [10/Dec/2024 01:31:41] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 01:32:16,424 - ERROR - Error: Directory migrations already exists and is not empty
+2024-12-10 01:36:59,793 - INFO - 127.0.0.1 - - [10/Dec/2024 01:36:59] "GET /register_admin HTTP/1.1" 200 -
+2024-12-10 01:37:00,171 - INFO - 127.0.0.1 - - [10/Dec/2024 01:37:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 01:37:01,847 - ERROR - Invalid password reset link accessed.
+2024-12-10 01:37:01,858 - INFO - 127.0.0.1 - - [10/Dec/2024 01:37:01] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 01:37:01,877 - ERROR - Form validation errors: {}
+2024-12-10 01:37:01,885 - INFO - 127.0.0.1 - - [10/Dec/2024 01:37:01] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 01:37:31,079 - INFO - 127.0.0.1 - - [10/Dec/2024 01:37:31] "POST /register HTTP/1.1" 200 -
+2024-12-10 01:37:31,364 - INFO - 127.0.0.1 - - [10/Dec/2024 01:37:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 01:37:33,543 - ERROR - Invalid password reset link accessed.
+2024-12-10 01:37:33,571 - INFO - 127.0.0.1 - - [10/Dec/2024 01:37:33] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 01:37:33,636 - ERROR - Form validation errors: {}
+2024-12-10 01:37:33,642 - INFO - 127.0.0.1 - - [10/Dec/2024 01:37:33] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 01:39:01,905 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\auth\\routes.py', reloading
+2024-12-10 01:39:07,962 - INFO -  * Restarting with stat
+2024-12-10 01:39:15,969 - WARNING -  * Debugger is active!
+2024-12-10 01:39:16,000 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 01:39:18,351 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\auth\\routes.py', reloading
+2024-12-10 01:39:18,918 - INFO -  * Restarting with stat
+2024-12-10 01:39:23,091 - WARNING -  * Debugger is active!
+2024-12-10 01:39:23,105 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 01:39:26,890 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\auth\\routes.py', reloading
+2024-12-10 01:39:27,218 - INFO -  * Restarting with stat
+2024-12-10 01:39:32,826 - WARNING -  * Debugger is active!
+2024-12-10 01:39:32,833 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 01:39:46,445 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\auth\\routes.py', reloading
+2024-12-10 01:39:47,345 - INFO -  * Restarting with stat
+2024-12-10 01:39:54,346 - WARNING -  * Debugger is active!
+2024-12-10 01:39:54,359 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 01:39:57,784 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\auth\\routes.py', reloading
+2024-12-10 01:39:58,673 - INFO -  * Restarting with stat
+2024-12-10 01:40:05,119 - WARNING -  * Debugger is active!
+2024-12-10 01:40:05,125 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 01:40:13,753 - INFO - 127.0.0.1 - - [10/Dec/2024 01:40:13] "POST /register HTTP/1.1" 200 -
+2024-12-10 01:40:13,988 - INFO - 127.0.0.1 - - [10/Dec/2024 01:40:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 01:40:14,403 - ERROR - Invalid password reset link accessed.
+2024-12-10 01:40:14,406 - INFO - 127.0.0.1 - - [10/Dec/2024 01:40:14] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 01:40:14,425 - ERROR - Form validation errors: {}
+2024-12-10 01:40:14,439 - INFO - 127.0.0.1 - - [10/Dec/2024 01:40:14] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 01:40:56,578 - INFO - 127.0.0.1 - - [10/Dec/2024 01:40:56] "[32mPOST /register HTTP/1.1[0m" 302 -
+2024-12-10 01:40:56,599 - INFO - 127.0.0.1 - - [10/Dec/2024 01:40:56] "GET /login HTTP/1.1" 200 -
+2024-12-10 01:40:56,640 - INFO - 127.0.0.1 - - [10/Dec/2024 01:40:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 01:40:57,030 - ERROR - Invalid password reset link accessed.
+2024-12-10 01:40:57,031 - INFO - 127.0.0.1 - - [10/Dec/2024 01:40:57] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 01:40:57,040 - ERROR - Form validation errors: {}
+2024-12-10 01:40:57,043 - INFO - 127.0.0.1 - - [10/Dec/2024 01:40:57] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 01:41:32,811 - INFO - 127.0.0.1 - - [10/Dec/2024 01:41:32] "GET /register_admin HTTP/1.1" 200 -
+2024-12-10 01:41:32,876 - INFO - 127.0.0.1 - - [10/Dec/2024 01:41:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 01:41:33,231 - ERROR - Invalid password reset link accessed.
+2024-12-10 01:41:33,235 - INFO - 127.0.0.1 - - [10/Dec/2024 01:41:33] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 01:41:33,253 - ERROR - Form validation errors: {}
+2024-12-10 01:41:33,256 - INFO - 127.0.0.1 - - [10/Dec/2024 01:41:33] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 01:41:53,011 - INFO - 127.0.0.1 - - [10/Dec/2024 01:41:53] "POST /register HTTP/1.1" 200 -
+2024-12-10 01:41:53,050 - INFO - 127.0.0.1 - - [10/Dec/2024 01:41:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 01:41:53,167 - ERROR - Invalid password reset link accessed.
+2024-12-10 01:41:53,167 - INFO - 127.0.0.1 - - [10/Dec/2024 01:41:53] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 01:41:53,167 - ERROR - Form validation errors: {}
+2024-12-10 01:41:53,167 - INFO - 127.0.0.1 - - [10/Dec/2024 01:41:53] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 01:42:51,906 - INFO - 127.0.0.1 - - [10/Dec/2024 01:42:51] "GET /register_admin HTTP/1.1" 200 -
+2024-12-10 01:42:52,095 - INFO - 127.0.0.1 - - [10/Dec/2024 01:42:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 01:42:53,001 - ERROR - Invalid password reset link accessed.
+2024-12-10 01:42:53,003 - INFO - 127.0.0.1 - - [10/Dec/2024 01:42:53] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 01:42:53,008 - ERROR - Form validation errors: {}
+2024-12-10 01:42:53,008 - INFO - 127.0.0.1 - - [10/Dec/2024 01:42:53] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 01:43:13,646 - INFO - 127.0.0.1 - - [10/Dec/2024 01:43:13] "POST /register HTTP/1.1" 200 -
+2024-12-10 01:43:13,681 - INFO - 127.0.0.1 - - [10/Dec/2024 01:43:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 01:43:13,803 - ERROR - Invalid password reset link accessed.
+2024-12-10 01:43:13,803 - INFO - 127.0.0.1 - - [10/Dec/2024 01:43:13] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 01:43:13,803 - ERROR - Form validation errors: {}
+2024-12-10 01:43:13,803 - INFO - 127.0.0.1 - - [10/Dec/2024 01:43:13] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 01:44:24,378 - INFO - 127.0.0.1 - - [10/Dec/2024 01:44:24] "GET /register_admin HTTP/1.1" 200 -
+2024-12-10 01:44:24,439 - INFO - 127.0.0.1 - - [10/Dec/2024 01:44:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 01:44:25,111 - ERROR - Invalid password reset link accessed.
+2024-12-10 01:44:25,114 - INFO - 127.0.0.1 - - [10/Dec/2024 01:44:25] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 01:44:25,122 - ERROR - Form validation errors: {}
+2024-12-10 01:44:25,123 - INFO - 127.0.0.1 - - [10/Dec/2024 01:44:25] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 01:44:43,054 - INFO - 127.0.0.1 - - [10/Dec/2024 01:44:43] "POST /register HTTP/1.1" 200 -
+2024-12-10 01:44:43,087 - INFO - 127.0.0.1 - - [10/Dec/2024 01:44:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 01:44:43,192 - ERROR - Invalid password reset link accessed.
+2024-12-10 01:44:43,192 - INFO - 127.0.0.1 - - [10/Dec/2024 01:44:43] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 01:44:43,197 - ERROR - Form validation errors: {}
+2024-12-10 01:44:43,197 - INFO - 127.0.0.1 - - [10/Dec/2024 01:44:43] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 01:45:20,750 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\auth\\forms.py', reloading
+2024-12-10 01:45:22,031 - INFO -  * Restarting with stat
+2024-12-10 01:45:51,808 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+2024-12-10 01:45:51,811 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-10 01:45:51,812 - INFO -  * Restarting with stat
+2024-12-10 01:45:54,976 - WARNING -  * Debugger is active!
+2024-12-10 01:45:54,991 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 01:45:59,005 - INFO - 127.0.0.1 - - [10/Dec/2024 01:45:59] "[32mPOST /register HTTP/1.1[0m" 302 -
+2024-12-10 01:45:59,191 - INFO - 127.0.0.1 - - [10/Dec/2024 01:45:59] "GET /login HTTP/1.1" 200 -
+2024-12-10 01:45:59,346 - INFO - 127.0.0.1 - - [10/Dec/2024 01:45:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 01:46:00,147 - ERROR - Invalid password reset link accessed.
+2024-12-10 01:46:00,148 - INFO - 127.0.0.1 - - [10/Dec/2024 01:46:00] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 01:46:00,158 - ERROR - Form validation errors: {}
+2024-12-10 01:46:00,162 - INFO - 127.0.0.1 - - [10/Dec/2024 01:46:00] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 01:47:10,276 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\auth\\forms.py', reloading
+2024-12-10 01:47:11,239 - INFO -  * Restarting with stat
+2024-12-10 01:47:16,400 - WARNING -  * Debugger is active!
+2024-12-10 01:47:16,420 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 01:47:32,066 - INFO - 127.0.0.1 - - [10/Dec/2024 01:47:32] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-10 01:47:32,096 - INFO - 127.0.0.1 - - [10/Dec/2024 01:47:32] "[32mGET / HTTP/1.1[0m" 302 -
+2024-12-10 01:47:32,125 - INFO - 127.0.0.1 - - [10/Dec/2024 01:47:32] "GET /dashboard HTTP/1.1" 200 -
+2024-12-10 01:47:33,745 - ERROR - Invalid password reset link accessed.
+2024-12-10 01:47:33,746 - INFO - 127.0.0.1 - - [10/Dec/2024 01:47:33] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 01:47:33,757 - ERROR - Form validation errors: {}
+2024-12-10 01:47:33,795 - INFO - 127.0.0.1 - - [10/Dec/2024 01:47:33] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 01:47:38,178 - INFO - 127.0.0.1 - - [10/Dec/2024 01:47:38] "GET /create_category HTTP/1.1" 200 -
+2024-12-10 01:47:38,284 - INFO - 127.0.0.1 - - [10/Dec/2024 01:47:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 01:47:38,401 - ERROR - Invalid password reset link accessed.
+2024-12-10 01:47:38,403 - INFO - 127.0.0.1 - - [10/Dec/2024 01:47:38] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 01:47:38,703 - ERROR - Form validation errors: {}
+2024-12-10 01:47:38,711 - INFO - 127.0.0.1 - - [10/Dec/2024 01:47:38] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 01:47:41,582 - ERROR - Invalid password reset link accessed.
+2024-12-10 01:47:41,584 - INFO - 127.0.0.1 - - [10/Dec/2024 01:47:41] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 01:47:41,600 - ERROR - Form validation errors: {}
+2024-12-10 01:47:41,605 - INFO - 127.0.0.1 - - [10/Dec/2024 01:47:41] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 01:47:42,422 - INFO - 127.0.0.1 - - [10/Dec/2024 01:47:42] "[35m[1mGET /candidates HTTP/1.1[0m" 500 -
+2024-12-10 01:47:42,503 - INFO - 127.0.0.1 - - [10/Dec/2024 01:47:42] "GET /candidates?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-12-10 01:47:42,512 - INFO - 127.0.0.1 - - [10/Dec/2024 01:47:42] "GET /candidates?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-12-10 01:47:42,579 - INFO - 127.0.0.1 - - [10/Dec/2024 01:47:42] "GET /candidates?__debugger__=yes&cmd=resource&f=console.png&s=qVfq7ml2WKr4Of3v3Hyc HTTP/1.1" 200 -
+2024-12-10 01:47:42,752 - INFO - 127.0.0.1 - - [10/Dec/2024 01:47:42] "GET /candidates?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-12-10 01:47:46,594 - INFO - 127.0.0.1 - - [10/Dec/2024 01:47:46] "GET /dashboard HTTP/1.1" 200 -
+2024-12-10 01:47:46,800 - ERROR - Invalid password reset link accessed.
+2024-12-10 01:47:46,801 - INFO - 127.0.0.1 - - [10/Dec/2024 01:47:46] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 01:47:46,805 - ERROR - Form validation errors: {}
+2024-12-10 01:47:46,811 - INFO - 127.0.0.1 - - [10/Dec/2024 01:47:46] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 01:47:47,957 - INFO - 127.0.0.1 - - [10/Dec/2024 01:47:47] "[35m[1mGET /candidates HTTP/1.1[0m" 500 -
+2024-12-10 01:47:47,994 - INFO - 127.0.0.1 - - [10/Dec/2024 01:47:47] "[36mGET /candidates?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-10 01:47:48,004 - INFO - 127.0.0.1 - - [10/Dec/2024 01:47:48] "[36mGET /candidates?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-10 01:47:48,036 - INFO - 127.0.0.1 - - [10/Dec/2024 01:47:48] "[36mGET /candidates?__debugger__=yes&cmd=resource&f=console.png&s=qVfq7ml2WKr4Of3v3Hyc HTTP/1.1[0m" 304 -
+2024-12-10 01:48:25,914 - INFO - 127.0.0.1 - - [10/Dec/2024 01:48:25] "GET /candidates HTTP/1.1" 200 -
+2024-12-10 01:48:25,951 - INFO - 127.0.0.1 - - [10/Dec/2024 01:48:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 01:48:26,076 - ERROR - Invalid password reset link accessed.
+2024-12-10 01:48:26,080 - INFO - 127.0.0.1 - - [10/Dec/2024 01:48:26] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 01:48:26,085 - ERROR - Form validation errors: {}
+2024-12-10 01:48:26,090 - INFO - 127.0.0.1 - - [10/Dec/2024 01:48:26] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 01:48:36,923 - INFO - 127.0.0.1 - - [10/Dec/2024 01:48:36] "GET /dashboard HTTP/1.1" 200 -
+2024-12-10 01:48:37,262 - ERROR - Invalid password reset link accessed.
+2024-12-10 01:48:37,263 - INFO - 127.0.0.1 - - [10/Dec/2024 01:48:37] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 01:48:37,269 - ERROR - Form validation errors: {}
+2024-12-10 01:48:37,276 - INFO - 127.0.0.1 - - [10/Dec/2024 01:48:37] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 01:48:38,859 - INFO - 127.0.0.1 - - [10/Dec/2024 01:48:38] "GET /create_election HTTP/1.1" 200 -
+2024-12-10 01:48:38,895 - INFO - 127.0.0.1 - - [10/Dec/2024 01:48:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 01:48:39,015 - ERROR - Invalid password reset link accessed.
+2024-12-10 01:48:39,016 - INFO - 127.0.0.1 - - [10/Dec/2024 01:48:39] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 01:48:39,023 - ERROR - Form validation errors: {}
+2024-12-10 01:48:39,029 - INFO - 127.0.0.1 - - [10/Dec/2024 01:48:39] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 01:48:42,058 - ERROR - Invalid password reset link accessed.
+2024-12-10 01:48:42,061 - INFO - 127.0.0.1 - - [10/Dec/2024 01:48:42] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 01:48:42,067 - ERROR - Form validation errors: {}
+2024-12-10 01:48:42,070 - INFO - 127.0.0.1 - - [10/Dec/2024 01:48:42] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 01:50:06,787 - INFO - 127.0.0.1 - - [10/Dec/2024 01:50:06] "GET /create_category HTTP/1.1" 200 -
+2024-12-10 01:50:06,877 - INFO - 127.0.0.1 - - [10/Dec/2024 01:50:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 01:50:07,354 - ERROR - Invalid password reset link accessed.
+2024-12-10 01:50:07,359 - INFO - 127.0.0.1 - - [10/Dec/2024 01:50:07] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 01:50:07,391 - ERROR - Form validation errors: {}
+2024-12-10 01:50:07,407 - INFO - 127.0.0.1 - - [10/Dec/2024 01:50:07] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 01:50:17,638 - INFO - 127.0.0.1 - - [10/Dec/2024 01:50:17] "GET /audit_logs HTTP/1.1" 200 -
+2024-12-10 01:50:17,889 - ERROR - Invalid password reset link accessed.
+2024-12-10 01:50:17,890 - INFO - 127.0.0.1 - - [10/Dec/2024 01:50:17] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 01:50:17,896 - ERROR - Form validation errors: {}
+2024-12-10 01:50:17,900 - INFO - 127.0.0.1 - - [10/Dec/2024 01:50:17] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 01:50:21,009 - ERROR - Invalid password reset link accessed.
+2024-12-10 01:50:21,009 - INFO - 127.0.0.1 - - [10/Dec/2024 01:50:21] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 01:50:21,015 - ERROR - Form validation errors: {}
+2024-12-10 01:50:21,024 - INFO - 127.0.0.1 - - [10/Dec/2024 01:50:21] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 01:50:24,467 - INFO - 127.0.0.1 - - [10/Dec/2024 01:50:24] "GET /candidates_by_category HTTP/1.1" 200 -
+2024-12-10 01:50:25,259 - ERROR - Invalid password reset link accessed.
+2024-12-10 01:50:25,259 - INFO - 127.0.0.1 - - [10/Dec/2024 01:50:25] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 01:50:25,259 - ERROR - Form validation errors: {}
+2024-12-10 01:50:25,270 - INFO - 127.0.0.1 - - [10/Dec/2024 01:50:25] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 01:50:28,867 - INFO - 127.0.0.1 - - [10/Dec/2024 01:50:28] "[32mGET / HTTP/1.1[0m" 302 -
+2024-12-10 01:50:28,885 - INFO - 127.0.0.1 - - [10/Dec/2024 01:50:28] "GET /dashboard HTTP/1.1" 200 -
+2024-12-10 01:50:29,062 - ERROR - Invalid password reset link accessed.
+2024-12-10 01:50:29,062 - INFO - 127.0.0.1 - - [10/Dec/2024 01:50:29] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 01:50:29,068 - ERROR - Form validation errors: {}
+2024-12-10 01:50:29,068 - INFO - 127.0.0.1 - - [10/Dec/2024 01:50:29] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 01:50:36,160 - INFO - 127.0.0.1 - - [10/Dec/2024 01:50:36] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-12-10 01:50:36,185 - INFO - 127.0.0.1 - - [10/Dec/2024 01:50:36] "GET /login HTTP/1.1" 200 -
+2024-12-10 01:50:36,219 - INFO - 127.0.0.1 - - [10/Dec/2024 01:50:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 01:50:36,299 - ERROR - Invalid password reset link accessed.
+2024-12-10 01:50:36,300 - INFO - 127.0.0.1 - - [10/Dec/2024 01:50:36] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 01:50:36,307 - ERROR - Form validation errors: {}
+2024-12-10 01:50:36,307 - INFO - 127.0.0.1 - - [10/Dec/2024 01:50:36] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 01:50:45,170 - INFO - 127.0.0.1 - - [10/Dec/2024 01:50:45] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-10 01:50:45,179 - INFO - 127.0.0.1 - - [10/Dec/2024 01:50:45] "[32mGET / HTTP/1.1[0m" 302 -
+2024-12-10 01:50:45,196 - INFO - 127.0.0.1 - - [10/Dec/2024 01:50:45] "GET /categories HTTP/1.1" 200 -
+2024-12-10 01:50:45,248 - INFO - 127.0.0.1 - - [10/Dec/2024 01:50:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 01:50:45,677 - ERROR - Invalid password reset link accessed.
+2024-12-10 01:50:45,679 - INFO - 127.0.0.1 - - [10/Dec/2024 01:50:45] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 01:50:45,693 - ERROR - Form validation errors: {}
+2024-12-10 01:50:45,699 - INFO - 127.0.0.1 - - [10/Dec/2024 01:50:45] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 01:50:49,296 - INFO - 127.0.0.1 - - [10/Dec/2024 01:50:49] "GET /categories HTTP/1.1" 200 -
+2024-12-10 01:50:49,323 - INFO - 127.0.0.1 - - [10/Dec/2024 01:50:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 01:50:49,401 - ERROR - Invalid password reset link accessed.
+2024-12-10 01:50:49,402 - INFO - 127.0.0.1 - - [10/Dec/2024 01:50:49] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 01:50:49,407 - ERROR - Form validation errors: {}
+2024-12-10 01:50:49,409 - INFO - 127.0.0.1 - - [10/Dec/2024 01:50:49] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 01:51:40,420 - INFO - 127.0.0.1 - - [10/Dec/2024 01:51:40] "GET / HTTP/1.1" 200 -
+2024-12-10 01:51:40,483 - INFO - 127.0.0.1 - - [10/Dec/2024 01:51:40] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-12-10 01:51:40,518 - INFO - 127.0.0.1 - - [10/Dec/2024 01:51:40] "[36mGET /static/img/weather-3.jpg HTTP/1.1[0m" 304 -
+2024-12-10 01:51:40,519 - INFO - 127.0.0.1 - - [10/Dec/2024 01:51:40] "[33mGET /static/img/security.svg HTTP/1.1[0m" 404 -
+2024-12-10 01:51:40,529 - INFO - 127.0.0.1 - - [10/Dec/2024 01:51:40] "[33mGET /static/img/accessibility.svg HTTP/1.1[0m" 404 -
+2024-12-10 01:51:41,204 - ERROR - Invalid password reset link accessed.
+2024-12-10 01:51:41,216 - INFO - 127.0.0.1 - - [10/Dec/2024 01:51:41] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 01:51:41,235 - ERROR - Form validation errors: {}
+2024-12-10 01:51:41,235 - INFO - 127.0.0.1 - - [10/Dec/2024 01:51:41] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 01:51:43,325 - INFO - 127.0.0.1 - - [10/Dec/2024 01:51:43] "GET /login HTTP/1.1" 200 -
+2024-12-10 01:51:43,388 - INFO - 127.0.0.1 - - [10/Dec/2024 01:51:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 01:51:43,486 - ERROR - Invalid password reset link accessed.
+2024-12-10 01:51:43,487 - INFO - 127.0.0.1 - - [10/Dec/2024 01:51:43] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 01:51:43,495 - ERROR - Form validation errors: {}
+2024-12-10 01:51:43,498 - INFO - 127.0.0.1 - - [10/Dec/2024 01:51:43] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 01:51:53,981 - INFO - 127.0.0.1 - - [10/Dec/2024 01:51:53] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-10 01:51:53,991 - INFO - 127.0.0.1 - - [10/Dec/2024 01:51:53] "GET /login HTTP/1.1" 200 -
+2024-12-10 01:51:54,014 - INFO - 127.0.0.1 - - [10/Dec/2024 01:51:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 01:51:54,047 - ERROR - Invalid password reset link accessed.
+2024-12-10 01:51:54,048 - INFO - 127.0.0.1 - - [10/Dec/2024 01:51:54] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 01:51:54,051 - ERROR - Form validation errors: {}
+2024-12-10 01:51:54,054 - INFO - 127.0.0.1 - - [10/Dec/2024 01:51:54] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 01:52:03,974 - INFO - 127.0.0.1 - - [10/Dec/2024 01:52:03] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-10 01:52:03,981 - INFO - 127.0.0.1 - - [10/Dec/2024 01:52:03] "[32mGET / HTTP/1.1[0m" 302 -
+2024-12-10 01:52:03,989 - INFO - 127.0.0.1 - - [10/Dec/2024 01:52:03] "GET /dashboard HTTP/1.1" 200 -
+2024-12-10 01:52:04,733 - ERROR - Invalid password reset link accessed.
+2024-12-10 01:52:04,737 - INFO - 127.0.0.1 - - [10/Dec/2024 01:52:04] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 01:52:04,743 - ERROR - Form validation errors: {}
+2024-12-10 01:52:04,747 - INFO - 127.0.0.1 - - [10/Dec/2024 01:52:04] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 01:52:09,834 - INFO - 127.0.0.1 - - [10/Dec/2024 01:52:09] "GET /create_category HTTP/1.1" 200 -
+2024-12-10 01:52:09,856 - INFO - 127.0.0.1 - - [10/Dec/2024 01:52:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 01:52:09,924 - ERROR - Invalid password reset link accessed.
+2024-12-10 01:52:09,924 - INFO - 127.0.0.1 - - [10/Dec/2024 01:52:09] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 01:52:09,936 - ERROR - Form validation errors: {}
+2024-12-10 01:52:09,937 - INFO - 127.0.0.1 - - [10/Dec/2024 01:52:09] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 01:54:05,035 - INFO - 127.0.0.1 - - [10/Dec/2024 01:54:05] "[32mPOST /create_category HTTP/1.1[0m" 302 -
+2024-12-10 01:54:05,043 - INFO - 127.0.0.1 - - [10/Dec/2024 01:54:05] "[32mGET /categories HTTP/1.1[0m" 302 -
+2024-12-10 01:54:05,049 - INFO - 127.0.0.1 - - [10/Dec/2024 01:54:05] "[32mGET / HTTP/1.1[0m" 302 -
+2024-12-10 01:54:05,059 - INFO - 127.0.0.1 - - [10/Dec/2024 01:54:05] "GET /dashboard HTTP/1.1" 200 -
+2024-12-10 01:54:05,307 - ERROR - Invalid password reset link accessed.
+2024-12-10 01:54:05,308 - INFO - 127.0.0.1 - - [10/Dec/2024 01:54:05] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 01:54:05,315 - ERROR - Form validation errors: {}
+2024-12-10 01:54:05,319 - INFO - 127.0.0.1 - - [10/Dec/2024 01:54:05] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 01:54:08,723 - INFO - 127.0.0.1 - - [10/Dec/2024 01:54:08] "GET /categories HTTP/1.1" 200 -
+2024-12-10 01:54:08,837 - INFO - 127.0.0.1 - - [10/Dec/2024 01:54:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 01:54:09,227 - ERROR - Invalid password reset link accessed.
+2024-12-10 01:54:09,229 - INFO - 127.0.0.1 - - [10/Dec/2024 01:54:09] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 01:54:09,234 - ERROR - Form validation errors: {}
+2024-12-10 01:54:09,234 - INFO - 127.0.0.1 - - [10/Dec/2024 01:54:09] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 01:54:32,615 - INFO - 127.0.0.1 - - [10/Dec/2024 01:54:32] "GET /create_category HTTP/1.1" 200 -
+2024-12-10 01:54:32,635 - INFO - 127.0.0.1 - - [10/Dec/2024 01:54:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 01:54:32,674 - ERROR - Invalid password reset link accessed.
+2024-12-10 01:54:32,679 - INFO - 127.0.0.1 - - [10/Dec/2024 01:54:32] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 01:54:32,735 - ERROR - Form validation errors: {}
+2024-12-10 01:54:32,741 - INFO - 127.0.0.1 - - [10/Dec/2024 01:54:32] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 01:55:14,274 - INFO - 127.0.0.1 - - [10/Dec/2024 01:55:14] "[32mPOST /create_category HTTP/1.1[0m" 302 -
+2024-12-10 01:55:14,279 - INFO - 127.0.0.1 - - [10/Dec/2024 01:55:14] "[32mGET /categories HTTP/1.1[0m" 302 -
+2024-12-10 01:55:14,287 - INFO - 127.0.0.1 - - [10/Dec/2024 01:55:14] "[32mGET / HTTP/1.1[0m" 302 -
+2024-12-10 01:55:14,292 - INFO - 127.0.0.1 - - [10/Dec/2024 01:55:14] "GET /dashboard HTTP/1.1" 200 -
+2024-12-10 01:55:14,441 - ERROR - Invalid password reset link accessed.
+2024-12-10 01:55:14,441 - INFO - 127.0.0.1 - - [10/Dec/2024 01:55:14] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 01:55:14,447 - ERROR - Form validation errors: {}
+2024-12-10 01:55:14,450 - INFO - 127.0.0.1 - - [10/Dec/2024 01:55:14] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 01:55:18,489 - INFO - 127.0.0.1 - - [10/Dec/2024 01:55:18] "GET /categories HTTP/1.1" 200 -
+2024-12-10 01:55:18,507 - INFO - 127.0.0.1 - - [10/Dec/2024 01:55:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 01:55:18,623 - ERROR - Invalid password reset link accessed.
+2024-12-10 01:55:18,625 - INFO - 127.0.0.1 - - [10/Dec/2024 01:55:18] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 01:55:18,631 - ERROR - Form validation errors: {}
+2024-12-10 01:55:18,636 - INFO - 127.0.0.1 - - [10/Dec/2024 01:55:18] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 01:55:21,545 - INFO - 127.0.0.1 - - [10/Dec/2024 01:55:21] "GET /candidates/1 HTTP/1.1" 200 -
+2024-12-10 01:55:21,578 - INFO - 127.0.0.1 - - [10/Dec/2024 01:55:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 01:55:21,662 - ERROR - Invalid password reset link accessed.
+2024-12-10 01:55:21,663 - INFO - 127.0.0.1 - - [10/Dec/2024 01:55:21] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 01:55:21,670 - ERROR - Form validation errors: {}
+2024-12-10 01:55:21,674 - INFO - 127.0.0.1 - - [10/Dec/2024 01:55:21] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 01:55:25,325 - ERROR - Invalid password reset link accessed.
+2024-12-10 01:55:25,330 - INFO - 127.0.0.1 - - [10/Dec/2024 01:55:25] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 01:55:25,342 - ERROR - Form validation errors: {}
+2024-12-10 01:55:25,346 - INFO - 127.0.0.1 - - [10/Dec/2024 01:55:25] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 01:55:45,927 - INFO - 127.0.0.1 - - [10/Dec/2024 01:55:45] "GET /create_category HTTP/1.1" 200 -
+2024-12-10 01:55:45,955 - INFO - 127.0.0.1 - - [10/Dec/2024 01:55:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 01:55:45,993 - ERROR - Invalid password reset link accessed.
+2024-12-10 01:55:45,993 - INFO - 127.0.0.1 - - [10/Dec/2024 01:55:45] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 01:55:45,998 - ERROR - Form validation errors: {}
+2024-12-10 01:55:46,023 - INFO - 127.0.0.1 - - [10/Dec/2024 01:55:46] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 01:58:03,234 - INFO - 127.0.0.1 - - [10/Dec/2024 01:58:03] "[32mPOST /create_category HTTP/1.1[0m" 302 -
+2024-12-10 01:58:03,245 - INFO - 127.0.0.1 - - [10/Dec/2024 01:58:03] "[32mGET /categories HTTP/1.1[0m" 302 -
+2024-12-10 01:58:03,254 - INFO - 127.0.0.1 - - [10/Dec/2024 01:58:03] "[32mGET / HTTP/1.1[0m" 302 -
+2024-12-10 01:58:03,267 - INFO - 127.0.0.1 - - [10/Dec/2024 01:58:03] "GET /dashboard HTTP/1.1" 200 -
+2024-12-10 01:58:03,500 - ERROR - Invalid password reset link accessed.
+2024-12-10 01:58:03,500 - INFO - 127.0.0.1 - - [10/Dec/2024 01:58:03] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 01:58:03,517 - ERROR - Form validation errors: {}
+2024-12-10 01:58:03,520 - INFO - 127.0.0.1 - - [10/Dec/2024 01:58:03] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 01:58:07,756 - INFO - 127.0.0.1 - - [10/Dec/2024 01:58:07] "GET /candidates/1 HTTP/1.1" 200 -
+2024-12-10 01:58:07,895 - INFO - 127.0.0.1 - - [10/Dec/2024 01:58:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 01:58:07,996 - ERROR - Invalid password reset link accessed.
+2024-12-10 01:58:07,997 - INFO - 127.0.0.1 - - [10/Dec/2024 01:58:07] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 01:58:08,004 - ERROR - Form validation errors: {}
+2024-12-10 01:58:08,006 - INFO - 127.0.0.1 - - [10/Dec/2024 01:58:08] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 01:58:10,101 - INFO - 127.0.0.1 - - [10/Dec/2024 01:58:10] "GET /categories HTTP/1.1" 200 -
+2024-12-10 01:58:10,219 - ERROR - Invalid password reset link accessed.
+2024-12-10 01:58:10,220 - INFO - 127.0.0.1 - - [10/Dec/2024 01:58:10] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 01:58:10,236 - ERROR - Form validation errors: {}
+2024-12-10 01:58:10,240 - INFO - 127.0.0.1 - - [10/Dec/2024 01:58:10] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 01:58:16,247 - INFO - 127.0.0.1 - - [10/Dec/2024 01:58:16] "GET /create_election HTTP/1.1" 200 -
+2024-12-10 01:58:16,268 - INFO - 127.0.0.1 - - [10/Dec/2024 01:58:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 01:58:16,315 - ERROR - Invalid password reset link accessed.
+2024-12-10 01:58:16,315 - INFO - 127.0.0.1 - - [10/Dec/2024 01:58:16] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 01:58:16,326 - ERROR - Form validation errors: {}
+2024-12-10 01:58:16,329 - INFO - 127.0.0.1 - - [10/Dec/2024 01:58:16] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 01:59:43,219 - INFO - 127.0.0.1 - - [10/Dec/2024 01:59:43] "[32mPOST /create_election HTTP/1.1[0m" 302 -
+2024-12-10 01:59:43,229 - INFO - 127.0.0.1 - - [10/Dec/2024 01:59:43] "[32mGET / HTTP/1.1[0m" 302 -
+2024-12-10 01:59:43,235 - INFO - 127.0.0.1 - - [10/Dec/2024 01:59:43] "GET /dashboard HTTP/1.1" 200 -
+2024-12-10 01:59:43,435 - ERROR - Invalid password reset link accessed.
+2024-12-10 01:59:43,436 - INFO - 127.0.0.1 - - [10/Dec/2024 01:59:43] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 01:59:43,440 - ERROR - Form validation errors: {}
+2024-12-10 01:59:43,444 - INFO - 127.0.0.1 - - [10/Dec/2024 01:59:43] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 01:59:46,555 - INFO - 127.0.0.1 - - [10/Dec/2024 01:59:46] "GET /candidates HTTP/1.1" 200 -
+2024-12-10 01:59:46,574 - INFO - 127.0.0.1 - - [10/Dec/2024 01:59:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 01:59:46,616 - ERROR - Invalid password reset link accessed.
+2024-12-10 01:59:46,616 - INFO - 127.0.0.1 - - [10/Dec/2024 01:59:46] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 01:59:46,628 - ERROR - Form validation errors: {}
+2024-12-10 01:59:46,630 - INFO - 127.0.0.1 - - [10/Dec/2024 01:59:46] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 02:02:05,763 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\vote\\forms.py', reloading
+2024-12-10 02:02:12,386 - INFO -  * Restarting with stat
+2024-12-10 02:02:24,790 - WARNING -  * Debugger is active!
+2024-12-10 02:02:24,801 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 02:02:28,409 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\vote\\routes.py', reloading
+2024-12-10 02:02:29,028 - INFO -  * Restarting with stat
+2024-12-10 02:02:32,892 - WARNING -  * Debugger is active!
+2024-12-10 02:02:32,892 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 02:02:40,523 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\models.py', reloading
+2024-12-10 02:02:44,042 - INFO -  * Restarting with stat
+2024-12-10 02:02:53,016 - WARNING -  * Debugger is active!
+2024-12-10 02:02:53,025 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 02:02:54,641 - ERROR - Error: Directory migrations already exists and is not empty
+2024-12-10 02:03:25,175 - INFO - 127.0.0.1 - - [10/Dec/2024 02:03:25] "GET /candidates HTTP/1.1" 200 -
+2024-12-10 02:03:25,430 - INFO - 127.0.0.1 - - [10/Dec/2024 02:03:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 02:03:25,743 - ERROR - Invalid password reset link accessed.
+2024-12-10 02:03:25,746 - INFO - 127.0.0.1 - - [10/Dec/2024 02:03:25] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 02:03:25,754 - ERROR - Form validation errors: {}
+2024-12-10 02:03:25,771 - INFO - 127.0.0.1 - - [10/Dec/2024 02:03:25] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 02:05:10,890 - INFO - 127.0.0.1 - - [10/Dec/2024 02:05:10] "[35m[1mPOST /candidates HTTP/1.1[0m" 500 -
+2024-12-10 02:05:10,942 - INFO - 127.0.0.1 - - [10/Dec/2024 02:05:10] "GET /candidates?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-12-10 02:05:10,955 - INFO - 127.0.0.1 - - [10/Dec/2024 02:05:10] "GET /candidates?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-12-10 02:05:11,052 - INFO - 127.0.0.1 - - [10/Dec/2024 02:05:11] "GET /candidates?__debugger__=yes&cmd=resource&f=console.png&s=c0JtOkEfAhGpqf6TNWNs HTTP/1.1" 200 -
+2024-12-10 02:05:11,107 - INFO - 127.0.0.1 - - [10/Dec/2024 02:05:11] "GET /candidates?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-12-10 02:05:15,245 - INFO - 127.0.0.1 - - [10/Dec/2024 02:05:15] "GET /candidates HTTP/1.1" 200 -
+2024-12-10 02:05:15,332 - ERROR - Invalid password reset link accessed.
+2024-12-10 02:05:15,336 - INFO - 127.0.0.1 - - [10/Dec/2024 02:05:15] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 02:05:15,344 - ERROR - Form validation errors: {}
+2024-12-10 02:05:15,352 - INFO - 127.0.0.1 - - [10/Dec/2024 02:05:15] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 02:05:50,948 - INFO - 127.0.0.1 - - [10/Dec/2024 02:05:50] "[35m[1mPOST /candidates HTTP/1.1[0m" 500 -
+2024-12-10 02:05:51,032 - INFO - 127.0.0.1 - - [10/Dec/2024 02:05:51] "[36mGET /candidates?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-10 02:05:51,048 - INFO - 127.0.0.1 - - [10/Dec/2024 02:05:51] "[36mGET /candidates?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-10 02:05:51,144 - INFO - 127.0.0.1 - - [10/Dec/2024 02:05:51] "[36mGET /candidates?__debugger__=yes&cmd=resource&f=console.png&s=c0JtOkEfAhGpqf6TNWNs HTTP/1.1[0m" 304 -
+2024-12-10 02:05:58,969 - INFO - 127.0.0.1 - - [10/Dec/2024 02:05:58] "GET /candidates HTTP/1.1" 200 -
+2024-12-10 02:05:59,035 - ERROR - Invalid password reset link accessed.
+2024-12-10 02:05:59,035 - INFO - 127.0.0.1 - - [10/Dec/2024 02:05:59] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 02:05:59,035 - ERROR - Form validation errors: {}
+2024-12-10 02:05:59,051 - INFO - 127.0.0.1 - - [10/Dec/2024 02:05:59] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 02:06:25,691 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\vote\\routes.py', reloading
+2024-12-10 02:06:26,924 - INFO -  * Restarting with stat
+2024-12-10 02:06:37,227 - WARNING -  * Debugger is active!
+2024-12-10 02:06:37,244 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 02:06:41,037 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\vote\\routes.py', reloading
+2024-12-10 02:06:41,859 - INFO -  * Restarting with stat
+2024-12-10 02:06:53,712 - WARNING -  * Debugger is active!
+2024-12-10 02:06:53,723 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 02:06:54,385 - ERROR - Unexpected error occurred: 'CandidateForm' object has no attribute 'certificates'
+2024-12-10 02:06:54,525 - INFO - 127.0.0.1 - - [10/Dec/2024 02:06:54] "POST /candidates HTTP/1.1" 200 -
+2024-12-10 02:06:55,122 - INFO - 127.0.0.1 - - [10/Dec/2024 02:06:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 02:06:55,890 - ERROR - Invalid password reset link accessed.
+2024-12-10 02:06:55,898 - INFO - 127.0.0.1 - - [10/Dec/2024 02:06:55] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 02:06:55,974 - ERROR - Form validation errors: {}
+2024-12-10 02:06:55,991 - INFO - 127.0.0.1 - - [10/Dec/2024 02:06:55] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 02:07:34,669 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\vote\\routes.py', reloading
+2024-12-10 02:07:36,624 - INFO -  * Restarting with stat
+2024-12-10 02:07:42,535 - WARNING -  * Debugger is active!
+2024-12-10 02:07:42,550 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 02:07:53,883 - INFO - 127.0.0.1 - - [10/Dec/2024 02:07:53] "[32mPOST /candidates HTTP/1.1[0m" 302 -
+2024-12-10 02:07:53,908 - INFO - 127.0.0.1 - - [10/Dec/2024 02:07:53] "[32mGET / HTTP/1.1[0m" 302 -
+2024-12-10 02:07:53,941 - INFO - 127.0.0.1 - - [10/Dec/2024 02:07:53] "GET /dashboard HTTP/1.1" 200 -
+2024-12-10 02:07:54,672 - ERROR - Invalid password reset link accessed.
+2024-12-10 02:07:54,673 - INFO - 127.0.0.1 - - [10/Dec/2024 02:07:54] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 02:07:54,686 - ERROR - Form validation errors: {}
+2024-12-10 02:07:54,717 - INFO - 127.0.0.1 - - [10/Dec/2024 02:07:54] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 02:07:58,789 - INFO - 127.0.0.1 - - [10/Dec/2024 02:07:58] "GET /candidates/1 HTTP/1.1" 200 -
+2024-12-10 02:07:59,119 - INFO - 127.0.0.1 - - [10/Dec/2024 02:07:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 02:07:59,477 - INFO - 127.0.0.1 - - [10/Dec/2024 02:07:59] "GET /static/profile_pics/peter_obi.webp HTTP/1.1" 200 -
+2024-12-10 02:07:59,665 - ERROR - Invalid password reset link accessed.
+2024-12-10 02:07:59,665 - INFO - 127.0.0.1 - - [10/Dec/2024 02:07:59] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 02:07:59,706 - ERROR - Form validation errors: {}
+2024-12-10 02:07:59,710 - INFO - 127.0.0.1 - - [10/Dec/2024 02:07:59] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 02:08:01,752 - INFO - 127.0.0.1 - - [10/Dec/2024 02:08:01] "GET /categories HTTP/1.1" 200 -
+2024-12-10 02:08:01,943 - ERROR - Invalid password reset link accessed.
+2024-12-10 02:08:01,944 - INFO - 127.0.0.1 - - [10/Dec/2024 02:08:01] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 02:08:01,953 - ERROR - Form validation errors: {}
+2024-12-10 02:08:01,954 - INFO - 127.0.0.1 - - [10/Dec/2024 02:08:01] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 02:08:06,967 - INFO - 127.0.0.1 - - [10/Dec/2024 02:08:06] "GET /candidates/1 HTTP/1.1" 200 -
+2024-12-10 02:08:07,047 - INFO - 127.0.0.1 - - [10/Dec/2024 02:08:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 02:08:07,060 - INFO - 127.0.0.1 - - [10/Dec/2024 02:08:07] "[36mGET /static/profile_pics/peter_obi.webp HTTP/1.1[0m" 304 -
+2024-12-10 02:08:07,214 - ERROR - Invalid password reset link accessed.
+2024-12-10 02:08:07,215 - INFO - 127.0.0.1 - - [10/Dec/2024 02:08:07] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 02:08:07,244 - ERROR - Form validation errors: {}
+2024-12-10 02:08:07,250 - INFO - 127.0.0.1 - - [10/Dec/2024 02:08:07] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 02:08:30,701 - INFO - 127.0.0.1 - - [10/Dec/2024 02:08:30] "GET /candidates HTTP/1.1" 200 -
+2024-12-10 02:08:30,815 - INFO - 127.0.0.1 - - [10/Dec/2024 02:08:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 02:08:30,894 - ERROR - Invalid password reset link accessed.
+2024-12-10 02:08:30,895 - INFO - 127.0.0.1 - - [10/Dec/2024 02:08:30] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 02:08:30,904 - ERROR - Form validation errors: {}
+2024-12-10 02:08:30,907 - INFO - 127.0.0.1 - - [10/Dec/2024 02:08:30] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 02:08:33,113 - INFO - 127.0.0.1 - - [10/Dec/2024 02:08:33] "GET /candidates_by_category HTTP/1.1" 200 -
+2024-12-10 02:08:33,138 - INFO - 127.0.0.1 - - [10/Dec/2024 02:08:33] "GET /static/profile_pics/peter_obi.webp HTTP/1.1" 200 -
+2024-12-10 02:08:33,811 - ERROR - Invalid password reset link accessed.
+2024-12-10 02:08:33,816 - INFO - 127.0.0.1 - - [10/Dec/2024 02:08:33] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 02:08:33,822 - ERROR - Form validation errors: {}
+2024-12-10 02:08:33,825 - INFO - 127.0.0.1 - - [10/Dec/2024 02:08:33] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 02:09:24,179 - INFO - 127.0.0.1 - - [10/Dec/2024 02:09:24] "[32mGET /edit_candidate/1 HTTP/1.1[0m" 302 -
+2024-12-10 02:09:24,187 - INFO - 127.0.0.1 - - [10/Dec/2024 02:09:24] "[32mGET / HTTP/1.1[0m" 302 -
+2024-12-10 02:09:24,196 - INFO - 127.0.0.1 - - [10/Dec/2024 02:09:24] "GET /dashboard HTTP/1.1" 200 -
+2024-12-10 02:09:24,387 - ERROR - Invalid password reset link accessed.
+2024-12-10 02:09:24,388 - INFO - 127.0.0.1 - - [10/Dec/2024 02:09:24] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 02:09:24,394 - ERROR - Form validation errors: {}
+2024-12-10 02:09:24,398 - INFO - 127.0.0.1 - - [10/Dec/2024 02:09:24] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 02:09:31,621 - INFO - 127.0.0.1 - - [10/Dec/2024 02:09:31] "GET /candidates HTTP/1.1" 200 -
+2024-12-10 02:09:31,664 - INFO - 127.0.0.1 - - [10/Dec/2024 02:09:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 02:09:31,703 - ERROR - Invalid password reset link accessed.
+2024-12-10 02:09:31,703 - INFO - 127.0.0.1 - - [10/Dec/2024 02:09:31] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 02:09:31,707 - ERROR - Form validation errors: {}
+2024-12-10 02:09:31,713 - INFO - 127.0.0.1 - - [10/Dec/2024 02:09:31] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 02:09:33,147 - INFO - 127.0.0.1 - - [10/Dec/2024 02:09:33] "GET /candidates_by_category HTTP/1.1" 200 -
+2024-12-10 02:09:33,182 - INFO - 127.0.0.1 - - [10/Dec/2024 02:09:33] "[36mGET /static/profile_pics/peter_obi.webp HTTP/1.1[0m" 304 -
+2024-12-10 02:09:33,686 - ERROR - Invalid password reset link accessed.
+2024-12-10 02:09:33,687 - INFO - 127.0.0.1 - - [10/Dec/2024 02:09:33] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 02:09:33,705 - ERROR - Form validation errors: {}
+2024-12-10 02:09:33,714 - INFO - 127.0.0.1 - - [10/Dec/2024 02:09:33] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 02:11:05,414 - INFO - 127.0.0.1 - - [10/Dec/2024 02:11:05] "[35m[1mGET /candidates/1 HTTP/1.1[0m" 500 -
+2024-12-10 02:11:06,579 - INFO - 127.0.0.1 - - [10/Dec/2024 02:11:06] "[36mGET /candidates/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-10 02:11:06,594 - INFO - 127.0.0.1 - - [10/Dec/2024 02:11:06] "[36mGET /candidates/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-10 02:11:07,445 - INFO - 127.0.0.1 - - [10/Dec/2024 02:11:07] "GET /candidates/1?__debugger__=yes&cmd=resource&f=console.png&s=VMIigRFPHnhduyBMlyrd HTTP/1.1" 200 -
+2024-12-10 02:11:08,042 - INFO - 127.0.0.1 - - [10/Dec/2024 02:11:08] "[36mGET /candidates/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-10 02:11:24,211 - INFO - 127.0.0.1 - - [10/Dec/2024 02:11:24] "GET /candidates/1 HTTP/1.1" 200 -
+2024-12-10 02:11:24,245 - INFO - 127.0.0.1 - - [10/Dec/2024 02:11:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 02:11:24,253 - INFO - 127.0.0.1 - - [10/Dec/2024 02:11:24] "[36mGET /static/profile_pics/peter_obi.webp HTTP/1.1[0m" 304 -
+2024-12-10 02:11:24,457 - ERROR - Invalid password reset link accessed.
+2024-12-10 02:11:24,457 - INFO - 127.0.0.1 - - [10/Dec/2024 02:11:24] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 02:11:24,464 - ERROR - Form validation errors: {}
+2024-12-10 02:11:24,472 - INFO - 127.0.0.1 - - [10/Dec/2024 02:11:24] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 02:11:42,049 - INFO - 127.0.0.1 - - [10/Dec/2024 02:11:42] "GET /candidates/1 HTTP/1.1" 200 -
+2024-12-10 02:11:42,083 - INFO - 127.0.0.1 - - [10/Dec/2024 02:11:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 02:11:42,092 - INFO - 127.0.0.1 - - [10/Dec/2024 02:11:42] "[36mGET /static/profile_pics/peter_obi.webp HTTP/1.1[0m" 304 -
+2024-12-10 02:11:42,210 - ERROR - Invalid password reset link accessed.
+2024-12-10 02:11:42,212 - INFO - 127.0.0.1 - - [10/Dec/2024 02:11:42] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 02:11:42,220 - ERROR - Form validation errors: {}
+2024-12-10 02:11:42,220 - INFO - 127.0.0.1 - - [10/Dec/2024 02:11:42] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 02:12:58,232 - INFO - 127.0.0.1 - - [10/Dec/2024 02:12:58] "GET /candidates/1 HTTP/1.1" 200 -
+2024-12-10 02:12:58,475 - INFO - 127.0.0.1 - - [10/Dec/2024 02:12:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 02:12:58,476 - INFO - 127.0.0.1 - - [10/Dec/2024 02:12:58] "[36mGET /static/profile_pics/peter_obi.webp HTTP/1.1[0m" 304 -
+2024-12-10 02:12:59,606 - ERROR - Invalid password reset link accessed.
+2024-12-10 02:12:59,614 - INFO - 127.0.0.1 - - [10/Dec/2024 02:12:59] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 02:12:59,656 - ERROR - Form validation errors: {}
+2024-12-10 02:12:59,668 - INFO - 127.0.0.1 - - [10/Dec/2024 02:12:59] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 02:13:01,562 - INFO - 127.0.0.1 - - [10/Dec/2024 02:13:01] "[32mGET / HTTP/1.1[0m" 302 -
+2024-12-10 02:13:01,581 - INFO - 127.0.0.1 - - [10/Dec/2024 02:13:01] "GET /categories HTTP/1.1" 200 -
+2024-12-10 02:13:01,654 - INFO - 127.0.0.1 - - [10/Dec/2024 02:13:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 02:13:01,743 - ERROR - Invalid password reset link accessed.
+2024-12-10 02:13:01,745 - INFO - 127.0.0.1 - - [10/Dec/2024 02:13:01] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 02:13:01,761 - ERROR - Form validation errors: {}
+2024-12-10 02:13:01,764 - INFO - 127.0.0.1 - - [10/Dec/2024 02:13:01] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 02:13:05,523 - INFO - 127.0.0.1 - - [10/Dec/2024 02:13:05] "GET /candidates/1 HTTP/1.1" 200 -
+2024-12-10 02:13:05,574 - INFO - 127.0.0.1 - - [10/Dec/2024 02:13:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 02:13:05,577 - INFO - 127.0.0.1 - - [10/Dec/2024 02:13:05] "[36mGET /static/profile_pics/peter_obi.webp HTTP/1.1[0m" 304 -
+2024-12-10 02:13:05,663 - ERROR - Invalid password reset link accessed.
+2024-12-10 02:13:05,663 - INFO - 127.0.0.1 - - [10/Dec/2024 02:13:05] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 02:13:05,670 - ERROR - Form validation errors: {}
+2024-12-10 02:13:05,674 - INFO - 127.0.0.1 - - [10/Dec/2024 02:13:05] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 02:13:08,393 - ERROR - Invalid password reset link accessed.
+2024-12-10 02:13:08,394 - INFO - 127.0.0.1 - - [10/Dec/2024 02:13:08] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 02:13:08,406 - ERROR - Form validation errors: {}
+2024-12-10 02:13:08,445 - INFO - 127.0.0.1 - - [10/Dec/2024 02:13:08] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 02:13:33,634 - ERROR - Invalid password reset link accessed.
+2024-12-10 02:13:33,635 - INFO - 127.0.0.1 - - [10/Dec/2024 02:13:33] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 02:13:33,643 - ERROR - Form validation errors: {}
+2024-12-10 02:13:33,648 - INFO - 127.0.0.1 - - [10/Dec/2024 02:13:33] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 02:13:35,827 - INFO - 127.0.0.1 - - [10/Dec/2024 02:13:35] "[32mGET / HTTP/1.1[0m" 302 -
+2024-12-10 02:13:35,843 - INFO - 127.0.0.1 - - [10/Dec/2024 02:13:35] "GET /dashboard HTTP/1.1" 200 -
+2024-12-10 02:13:36,073 - ERROR - Invalid password reset link accessed.
+2024-12-10 02:13:36,075 - INFO - 127.0.0.1 - - [10/Dec/2024 02:13:36] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 02:13:36,079 - ERROR - Form validation errors: {}
+2024-12-10 02:13:36,082 - INFO - 127.0.0.1 - - [10/Dec/2024 02:13:36] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 02:13:37,259 - INFO - 127.0.0.1 - - [10/Dec/2024 02:13:37] "GET /candidates HTTP/1.1" 200 -
+2024-12-10 02:13:37,288 - INFO - 127.0.0.1 - - [10/Dec/2024 02:13:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 02:13:37,357 - ERROR - Invalid password reset link accessed.
+2024-12-10 02:13:37,360 - INFO - 127.0.0.1 - - [10/Dec/2024 02:13:37] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 02:13:37,364 - ERROR - Form validation errors: {}
+2024-12-10 02:13:37,364 - INFO - 127.0.0.1 - - [10/Dec/2024 02:13:37] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 02:14:39,607 - INFO - 127.0.0.1 - - [10/Dec/2024 02:14:39] "[32mPOST /candidates HTTP/1.1[0m" 302 -
+2024-12-10 02:14:39,613 - INFO - 127.0.0.1 - - [10/Dec/2024 02:14:39] "[32mGET / HTTP/1.1[0m" 302 -
+2024-12-10 02:14:39,621 - INFO - 127.0.0.1 - - [10/Dec/2024 02:14:39] "GET /dashboard HTTP/1.1" 200 -
+2024-12-10 02:14:39,758 - ERROR - Invalid password reset link accessed.
+2024-12-10 02:14:39,758 - INFO - 127.0.0.1 - - [10/Dec/2024 02:14:39] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 02:14:39,762 - ERROR - Form validation errors: {}
+2024-12-10 02:14:39,765 - INFO - 127.0.0.1 - - [10/Dec/2024 02:14:39] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 02:14:45,080 - INFO - 127.0.0.1 - - [10/Dec/2024 02:14:45] "GET /candidates/1 HTTP/1.1" 200 -
+2024-12-10 02:14:45,137 - INFO - 127.0.0.1 - - [10/Dec/2024 02:14:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 02:14:45,140 - INFO - 127.0.0.1 - - [10/Dec/2024 02:14:45] "[36mGET /static/profile_pics/peter_obi.webp HTTP/1.1[0m" 304 -
+2024-12-10 02:14:45,155 - INFO - 127.0.0.1 - - [10/Dec/2024 02:14:45] "GET /static/profile_pics/atiku.webp HTTP/1.1" 200 -
+2024-12-10 02:14:45,315 - ERROR - Invalid password reset link accessed.
+2024-12-10 02:14:45,317 - INFO - 127.0.0.1 - - [10/Dec/2024 02:14:45] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 02:14:45,321 - ERROR - Form validation errors: {}
+2024-12-10 02:14:45,325 - INFO - 127.0.0.1 - - [10/Dec/2024 02:14:45] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 02:15:23,777 - INFO - 127.0.0.1 - - [10/Dec/2024 02:15:23] "GET /candidates HTTP/1.1" 200 -
+2024-12-10 02:15:23,796 - INFO - 127.0.0.1 - - [10/Dec/2024 02:15:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 02:15:23,833 - ERROR - Invalid password reset link accessed.
+2024-12-10 02:15:23,833 - INFO - 127.0.0.1 - - [10/Dec/2024 02:15:23] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 02:15:23,839 - ERROR - Form validation errors: {}
+2024-12-10 02:15:23,841 - INFO - 127.0.0.1 - - [10/Dec/2024 02:15:23] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 02:16:44,314 - INFO - 127.0.0.1 - - [10/Dec/2024 02:16:44] "[32mPOST /candidates HTTP/1.1[0m" 302 -
+2024-12-10 02:16:44,319 - INFO - 127.0.0.1 - - [10/Dec/2024 02:16:44] "[32mGET / HTTP/1.1[0m" 302 -
+2024-12-10 02:16:44,327 - INFO - 127.0.0.1 - - [10/Dec/2024 02:16:44] "GET /dashboard HTTP/1.1" 200 -
+2024-12-10 02:16:44,456 - ERROR - Invalid password reset link accessed.
+2024-12-10 02:16:44,457 - INFO - 127.0.0.1 - - [10/Dec/2024 02:16:44] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 02:16:44,463 - ERROR - Form validation errors: {}
+2024-12-10 02:16:44,468 - INFO - 127.0.0.1 - - [10/Dec/2024 02:16:44] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 02:16:48,901 - INFO - 127.0.0.1 - - [10/Dec/2024 02:16:48] "GET /candidates/1 HTTP/1.1" 200 -
+2024-12-10 02:16:48,924 - INFO - 127.0.0.1 - - [10/Dec/2024 02:16:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 02:16:48,929 - INFO - 127.0.0.1 - - [10/Dec/2024 02:16:48] "[36mGET /static/profile_pics/peter_obi.webp HTTP/1.1[0m" 304 -
+2024-12-10 02:16:48,931 - INFO - 127.0.0.1 - - [10/Dec/2024 02:16:48] "[36mGET /static/profile_pics/atiku.webp HTTP/1.1[0m" 304 -
+2024-12-10 02:16:49,068 - INFO - 127.0.0.1 - - [10/Dec/2024 02:16:49] "GET /static/profile_pics/tinubu.webp HTTP/1.1" 200 -
+2024-12-10 02:16:49,125 - ERROR - Invalid password reset link accessed.
+2024-12-10 02:16:49,128 - INFO - 127.0.0.1 - - [10/Dec/2024 02:16:49] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 02:16:49,135 - ERROR - Form validation errors: {}
+2024-12-10 02:16:49,137 - INFO - 127.0.0.1 - - [10/Dec/2024 02:16:49] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 02:17:18,174 - INFO - 127.0.0.1 - - [10/Dec/2024 02:17:18] "[32mGET / HTTP/1.1[0m" 302 -
+2024-12-10 02:17:18,188 - INFO - 127.0.0.1 - - [10/Dec/2024 02:17:18] "GET /categories HTTP/1.1" 200 -
+2024-12-10 02:17:18,236 - INFO - 127.0.0.1 - - [10/Dec/2024 02:17:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 02:17:18,357 - ERROR - Invalid password reset link accessed.
+2024-12-10 02:17:18,357 - INFO - 127.0.0.1 - - [10/Dec/2024 02:17:18] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 02:17:18,357 - ERROR - Form validation errors: {}
+2024-12-10 02:17:18,368 - INFO - 127.0.0.1 - - [10/Dec/2024 02:17:18] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 02:17:19,460 - INFO - 127.0.0.1 - - [10/Dec/2024 02:17:19] "GET /candidates/2 HTTP/1.1" 200 -
+2024-12-10 02:17:19,493 - INFO - 127.0.0.1 - - [10/Dec/2024 02:17:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 02:17:19,588 - ERROR - Invalid password reset link accessed.
+2024-12-10 02:17:19,589 - INFO - 127.0.0.1 - - [10/Dec/2024 02:17:19] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 02:17:19,594 - ERROR - Form validation errors: {}
+2024-12-10 02:17:19,596 - INFO - 127.0.0.1 - - [10/Dec/2024 02:17:19] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 02:18:22,186 - INFO - 127.0.0.1 - - [10/Dec/2024 02:18:22] "GET /category HTTP/1.1" 200 -
+2024-12-10 02:18:22,316 - ERROR - Invalid password reset link accessed.
+2024-12-10 02:18:22,317 - INFO - 127.0.0.1 - - [10/Dec/2024 02:18:22] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 02:18:22,321 - ERROR - Form validation errors: {}
+2024-12-10 02:18:22,325 - INFO - 127.0.0.1 - - [10/Dec/2024 02:18:22] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 02:18:25,976 - INFO - 127.0.0.1 - - [10/Dec/2024 02:18:25] "[31m[1mPOST /delete_category/3 HTTP/1.1[0m" 400 -
+2024-12-10 02:18:25,993 - INFO - 127.0.0.1 - - [10/Dec/2024 02:18:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 02:18:26,028 - ERROR - Invalid password reset link accessed.
+2024-12-10 02:18:26,028 - INFO - 127.0.0.1 - - [10/Dec/2024 02:18:26] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 02:18:26,039 - ERROR - Form validation errors: {}
+2024-12-10 02:18:26,044 - INFO - 127.0.0.1 - - [10/Dec/2024 02:18:26] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 02:18:51,797 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\vote\\routes.py', reloading
+2024-12-10 02:18:53,622 - INFO -  * Restarting with stat
+2024-12-10 02:19:02,380 - WARNING -  * Debugger is active!
+2024-12-10 02:19:02,396 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 02:19:10,376 - INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\online-voting\\online\\vote\\routes.py', reloading
+2024-12-10 02:19:10,985 - INFO -  * Restarting with stat
+2024-12-10 02:19:15,681 - WARNING -  * Debugger is active!
+2024-12-10 02:19:15,687 - INFO -  * Debugger PIN: 685-995-725
+2024-12-10 02:19:28,946 - INFO - 127.0.0.1 - - [10/Dec/2024 02:19:28] "GET /candidates_by_category HTTP/1.1" 200 -
+2024-12-10 02:19:29,342 - INFO - 127.0.0.1 - - [10/Dec/2024 02:19:29] "GET /static/profile_pics/atiku.webp HTTP/1.1" 200 -
+2024-12-10 02:19:29,342 - INFO - 127.0.0.1 - - [10/Dec/2024 02:19:29] "[36mGET /static/profile_pics/peter_obi.webp HTTP/1.1[0m" 304 -
+2024-12-10 02:19:29,366 - INFO - 127.0.0.1 - - [10/Dec/2024 02:19:29] "GET /static/profile_pics/tinubu.webp HTTP/1.1" 200 -
+2024-12-10 02:19:30,321 - ERROR - Invalid password reset link accessed.
+2024-12-10 02:19:30,333 - INFO - 127.0.0.1 - - [10/Dec/2024 02:19:30] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 02:19:30,379 - ERROR - Form validation errors: {}
+2024-12-10 02:19:30,518 - INFO - 127.0.0.1 - - [10/Dec/2024 02:19:30] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 02:19:34,088 - INFO - 127.0.0.1 - - [10/Dec/2024 02:19:34] "[32mGET /edit_candidate/3 HTTP/1.1[0m" 302 -
+2024-12-10 02:19:34,229 - INFO - 127.0.0.1 - - [10/Dec/2024 02:19:34] "[32mGET / HTTP/1.1[0m" 302 -
+2024-12-10 02:19:34,295 - INFO - 127.0.0.1 - - [10/Dec/2024 02:19:34] "GET /dashboard HTTP/1.1" 200 -
+2024-12-10 02:19:36,272 - ERROR - Invalid password reset link accessed.
+2024-12-10 02:19:36,273 - INFO - 127.0.0.1 - - [10/Dec/2024 02:19:36] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 02:19:36,321 - ERROR - Form validation errors: {}
+2024-12-10 02:19:36,329 - INFO - 127.0.0.1 - - [10/Dec/2024 02:19:36] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 02:19:41,588 - INFO - 127.0.0.1 - - [10/Dec/2024 02:19:41] "GET /category HTTP/1.1" 200 -
+2024-12-10 02:19:41,750 - ERROR - Invalid password reset link accessed.
+2024-12-10 02:19:41,752 - INFO - 127.0.0.1 - - [10/Dec/2024 02:19:41] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 02:19:41,760 - ERROR - Form validation errors: {}
+2024-12-10 02:19:41,763 - INFO - 127.0.0.1 - - [10/Dec/2024 02:19:41] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 02:19:47,778 - INFO - 127.0.0.1 - - [10/Dec/2024 02:19:47] "[32mPOST /delete_category/3 HTTP/1.1[0m" 302 -
+2024-12-10 02:19:47,789 - INFO - 127.0.0.1 - - [10/Dec/2024 02:19:47] "GET /category HTTP/1.1" 200 -
+2024-12-10 02:19:47,922 - ERROR - Invalid password reset link accessed.
+2024-12-10 02:19:47,923 - INFO - 127.0.0.1 - - [10/Dec/2024 02:19:47] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 02:19:47,929 - ERROR - Form validation errors: {}
+2024-12-10 02:19:47,933 - INFO - 127.0.0.1 - - [10/Dec/2024 02:19:47] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 02:19:54,980 - INFO - 127.0.0.1 - - [10/Dec/2024 02:19:54] "[32mPOST /delete_category/2 HTTP/1.1[0m" 302 -
+2024-12-10 02:19:54,993 - INFO - 127.0.0.1 - - [10/Dec/2024 02:19:54] "GET /category HTTP/1.1" 200 -
+2024-12-10 02:19:55,137 - ERROR - Invalid password reset link accessed.
+2024-12-10 02:19:55,138 - INFO - 127.0.0.1 - - [10/Dec/2024 02:19:55] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 02:19:55,146 - ERROR - Form validation errors: {}
+2024-12-10 02:19:55,151 - INFO - 127.0.0.1 - - [10/Dec/2024 02:19:55] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 02:19:58,355 - INFO - 127.0.0.1 - - [10/Dec/2024 02:19:58] "[32mGET / HTTP/1.1[0m" 302 -
+2024-12-10 02:19:58,380 - INFO - 127.0.0.1 - - [10/Dec/2024 02:19:58] "GET /categories HTTP/1.1" 200 -
+2024-12-10 02:19:58,477 - INFO - 127.0.0.1 - - [10/Dec/2024 02:19:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 02:19:58,921 - ERROR - Invalid password reset link accessed.
+2024-12-10 02:19:58,921 - INFO - 127.0.0.1 - - [10/Dec/2024 02:19:58] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 02:19:58,938 - ERROR - Form validation errors: {}
+2024-12-10 02:19:58,943 - INFO - 127.0.0.1 - - [10/Dec/2024 02:19:58] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 02:20:09,667 - INFO - 127.0.0.1 - - [10/Dec/2024 02:20:09] "GET /candidates/1 HTTP/1.1" 200 -
+2024-12-10 02:20:09,702 - INFO - 127.0.0.1 - - [10/Dec/2024 02:20:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 02:20:09,710 - INFO - 127.0.0.1 - - [10/Dec/2024 02:20:09] "[36mGET /static/profile_pics/atiku.webp HTTP/1.1[0m" 304 -
+2024-12-10 02:20:09,713 - INFO - 127.0.0.1 - - [10/Dec/2024 02:20:09] "[36mGET /static/profile_pics/peter_obi.webp HTTP/1.1[0m" 304 -
+2024-12-10 02:20:09,778 - INFO - 127.0.0.1 - - [10/Dec/2024 02:20:09] "[36mGET /static/profile_pics/tinubu.webp HTTP/1.1[0m" 304 -
+2024-12-10 02:20:09,889 - ERROR - Invalid password reset link accessed.
+2024-12-10 02:20:09,892 - INFO - 127.0.0.1 - - [10/Dec/2024 02:20:09] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 02:20:09,946 - ERROR - Form validation errors: {}
+2024-12-10 02:20:09,951 - INFO - 127.0.0.1 - - [10/Dec/2024 02:20:09] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 02:20:11,632 - ERROR - Invalid password reset link accessed.
+2024-12-10 02:20:11,633 - INFO - 127.0.0.1 - - [10/Dec/2024 02:20:11] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 02:20:11,645 - ERROR - Form validation errors: {}
+2024-12-10 02:20:11,649 - INFO - 127.0.0.1 - - [10/Dec/2024 02:20:11] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 02:20:21,965 - INFO - 127.0.0.1 - - [10/Dec/2024 02:20:21] "[35m[1mGET /edit_category/1 HTTP/1.1[0m" 500 -
+2024-12-10 02:20:21,993 - INFO - 127.0.0.1 - - [10/Dec/2024 02:20:21] "GET /edit_category/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-12-10 02:20:22,034 - INFO - 127.0.0.1 - - [10/Dec/2024 02:20:22] "GET /edit_category/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-12-10 02:20:22,089 - INFO - 127.0.0.1 - - [10/Dec/2024 02:20:22] "GET /edit_category/1?__debugger__=yes&cmd=resource&f=console.png&s=JksUczZjHzzDkAsTATws HTTP/1.1" 200 -
+2024-12-10 02:20:27,075 - INFO - 127.0.0.1 - - [10/Dec/2024 02:20:27] "GET /category HTTP/1.1" 200 -
+2024-12-10 02:20:27,229 - ERROR - Invalid password reset link accessed.
+2024-12-10 02:20:27,230 - INFO - 127.0.0.1 - - [10/Dec/2024 02:20:27] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 02:20:27,236 - ERROR - Form validation errors: {}
+2024-12-10 02:20:27,239 - INFO - 127.0.0.1 - - [10/Dec/2024 02:20:27] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 02:20:47,076 - INFO - 127.0.0.1 - - [10/Dec/2024 02:20:47] "GET /candidates/1 HTTP/1.1" 200 -
+2024-12-10 02:20:47,117 - INFO - 127.0.0.1 - - [10/Dec/2024 02:20:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 02:20:47,122 - INFO - 127.0.0.1 - - [10/Dec/2024 02:20:47] "[36mGET /static/profile_pics/peter_obi.webp HTTP/1.1[0m" 304 -
+2024-12-10 02:20:47,123 - INFO - 127.0.0.1 - - [10/Dec/2024 02:20:47] "[36mGET /static/profile_pics/atiku.webp HTTP/1.1[0m" 304 -
+2024-12-10 02:20:47,305 - INFO - 127.0.0.1 - - [10/Dec/2024 02:20:47] "[36mGET /static/profile_pics/tinubu.webp HTTP/1.1[0m" 304 -
+2024-12-10 02:20:47,421 - ERROR - Invalid password reset link accessed.
+2024-12-10 02:20:47,421 - INFO - 127.0.0.1 - - [10/Dec/2024 02:20:47] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 02:20:47,436 - ERROR - Form validation errors: {}
+2024-12-10 02:20:47,439 - INFO - 127.0.0.1 - - [10/Dec/2024 02:20:47] "GET /forgot_password HTTP/1.1" 200 -
+2024-12-10 02:20:54,949 - INFO - 127.0.0.1 - - [10/Dec/2024 02:20:54] "GET /candidates/1 HTTP/1.1" 200 -
+2024-12-10 02:20:54,974 - INFO - 127.0.0.1 - - [10/Dec/2024 02:20:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 02:20:54,980 - INFO - 127.0.0.1 - - [10/Dec/2024 02:20:54] "[36mGET /static/profile_pics/atiku.webp HTTP/1.1[0m" 304 -
+2024-12-10 02:20:54,980 - INFO - 127.0.0.1 - - [10/Dec/2024 02:20:54] "[36mGET /static/profile_pics/peter_obi.webp HTTP/1.1[0m" 304 -
+2024-12-10 02:20:55,015 - INFO - 127.0.0.1 - - [10/Dec/2024 02:20:55] "[36mGET /static/profile_pics/tinubu.webp HTTP/1.1[0m" 304 -
+2024-12-10 02:20:55,069 - ERROR - Invalid password reset link accessed.
+2024-12-10 02:20:55,070 - INFO - 127.0.0.1 - - [10/Dec/2024 02:20:55] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-12-10 02:20:55,079 - ERROR - Form validation errors: {}
+2024-12-10 02:20:55,083 - INFO - 127.0.0.1 - - [10/Dec/2024 02:20:55] "GET /forgot_password HTTP/1.1" 200 -

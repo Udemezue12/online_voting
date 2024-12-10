@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="This is an Election Portal" />
+
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <title class="text-4xl font-bold uppercase">ELECTIONS PORTAL</title>
+</head>
+
+<body class="bg-gradient-to-br from-teal-300 via-rose-300 to-yellow-300 text-gray-800">
+
+    <!-- Navbar -->
+    <nav class="bg-fuchsia-900 text-white">
+        <div class="container mx-auto flex justify-between items-center py-4 px-6">
+            <a href="/" class="text-2xl font-bold hover:text-gray-200 uppercase">Election Platform</a>
+            <ul class="flex space-x-4">
+              {% if current_user.is_authenticated %}
+                  {% if current_user.role == 'voter' %}
+                  <li class="text-xs font-bold uppercase"><a href="{{ url_for('online_voting.live_results') }}" class="hover:underline">Results</a></li>
+                  
+                  
+                  
+                  
+                  
+                  {% elif current_user.role == 'chairman' %}
+                  <li class="text-xs font-bold uppercase"><a href="{{ url_for('online_voting.create_election') }}" class="hover:underline">Create An Election</a></li>
+                  <li class="text-xs font-bold uppercase"><a href="{{ url_for('auth.dashboard') }}" class="hover:underline">Dashboard</a></li>
+                  <li class="text-xs font-bold uppercase"><a href="{{ url_for('online_voting.create_candidates') }}" class="hover:underline">Create A Candidate</a></li>
+                  <li class="text-xs font-bold uppercase"><a href="{{ url_for('online_voting.create_category') }}" class="hover:underline">Create A Category</a></li>
+                  <li class="text-xs font-bold uppercase"><a href="{{ url_for('online_voting.audit_logs') }}" class="hover:underline">Logs</a></li>
+                  <li class="text-xs font-bold uppercase"><a href="{{ url_for('online_voting.create_election') }}" class="hover:underline">Create A Election</a></li>
+                  <li class="text-xs font-bold uppercase"><a href="{{ url_for('online_voting.candidate_by_category') }}" class="hover:underline">Candidates</a></li>
+                  {% endif %}
+                
+                <li class="text-xs font-bold uppercase"><a href="{{ url_for('auth.logout') }}" class="hover:underline">Logout</a></li>
+              {% else %}
+                <li class="text-xs font-bold uppercase"><a href="{{ url_for('auth.login') }}" class="hover:underline">Login</a></li>
+                <li class="text-xs font-bold uppercase"><a href="{{ url_for('auth.register') }}" class="hover:underline">Register</a></li>
+              {% endif %}
+              
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Flash Messages -->
+    <div class="container mx-auto mt-4">
+        {% with messages = get_flashed_messages(with_categories=True) %}
+        {% if messages %}
+        <div class="space-y-4">
+            {% for category, message in messages %}
+            <div class="p-4 rounded-md {% if category == 'success' %}bg-green-200 text-green-800{% elif category == 'danger' %}bg-red-200 text-red-800{% elif category == 'info' %}bg-blue-200 text-blue-800{% else %}bg-gray-200 text-gray-800{% endif %}">
+                {{ message }}
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+        {% endwith %}
+    </div>
+
+    <!-- Main Content -->
+    <main class="container mx-auto mt-8 px-4">
+        {% block content %}
+        <!-- Content goes here -->
+        {% endblock %}
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-4 mt-8">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 Election Platform. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script>
+        AOS.init();
+      </script>
+</body>
+
+</html>

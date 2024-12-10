@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Election Results</title>
+    <script src="https://cdn.jsdelivr.net/npm/socket.io@4.5.4/dist/socket.io.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gradient-to-br from-indigo-700 via-purple-600 to-pink-500 min-h-screen flex flex-col items-center text-gray-100 animate-fade-in">
+
+    <!-- Navbar -->
+    <nav class="w-full bg-white bg-opacity-10 backdrop-blur-md shadow-md fixed top-0 z-50 transition-transform transform">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-4">
+                <a href="#" class="text-2xl font-bold text-white uppercase ">Election Live</a>
+                <ul class="flex space-x-6 text-gray-200">
+                    <li class="uppercase font-bold text-white"><a href="{{ url_for('auth.index') }}" class="hover:text-gray-100 transition">Home</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Loading Spinner -->
+    <div id="loading" class="flex items-center justify-center h-screen w-full absolute bg-indigo-800 bg-opacity-70 z-40">
+        <div class="loader animate-spin rounded-full h-16 w-16 border-t-4 border-b-4 border-gray-100"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="mt-24 text-center transition-all duration-500">
+        <h1 class="text-5xl font-bold tracking-wide drop-shadow-lg text-white hover:scale-105 uppercase ">
+            Live Election Results
+        </h1>
+        <p class="mt-4 text-xl text-gray-300 opacity-90 animate-fade-in">
+            Real-time updates on the latest vote counts
+        </p>
+    </header>
+
+    <!-- Results Container -->
+    <div id="results" class="w-full max-w-7xl px-6 mt-10">
+        {% for category_name, candidates in grouped_candidates.items() %}
+        {% if candidates and election_started %}
+        <div class="category-section mb-10">
+            <h2 class="text-3xl font-semibold text-white mb-6 animate-slide-in">
+                {{ category_name }}
+            </h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                {% for candidate in candidates %}
+                <div class="candidate bg-white bg-opacity-10 backdrop-blur-md rounded-xl shadow-lg hover:shadow-2xl p-6 transform transition-all duration-300 hover:scale-105 hover:bg-opacity-20">
+                    <div class="h-56 overflow-hidden object-cover rounded-t-xl transition-all duration-300 hover:scale-110">
+                        <img src="{{ url_for('static', filename='profile_pics/' + candidate.profile_pic) }}" 
+                             alt="{{ candidate.name }}" 
+                             class="h-full w-full object-cover  object-[50%_29%] ">
+                    </div>
+                    <h2 class="text-3xl font-semibold text-gray-100 mb-3 uppercase">{{ candidate.name }}</h2>
+                    <!-- <p class="text-lg text-gray-300 mb-2">
+                        Category: 
+                        <span class="font-bold text-white">
+                            {% for category in candidate.categories %}
+                                {{ category.name }}{% if not loop.last %}, {% endif %}
+                            {% endfor %}
+                        </span>
+                    </p> -->
+                    <p class="text-lg text-gray-300">
+                        Votes: <span id="votes-{{ candidate.id }}" class="font-bold text-green-300">{{ candidate.vote_count }}</span>
+                    </p>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+    </div>
+
+    <!-- Footer -->
+    <footer id="about" class="mt-16 w-full bg-white bg-opacity-10 backdrop-blur-md py-6">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <p class="text-gray-200 text-lg animate-fade-in">Powered by Real-Time Data</p>
+            <p class="text-gray-300 mt-1">© 2024 Elections</p>
+            <ul class="flex justify-center space-x-4 mt-3">
+                <li><a href="#" class="text-gray-200 hover:text-gray-100 transition">Privacy Policy</a></li>
+                <li><a href="#" class="text-gray-200 hover:text-gray-100 transition">Contact</a></li>
+                <li><a href="#" class="text-gray-200 hover:text-gray-100 transition">Support</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- Socket.io Script -->
+    <script>
+        // Show loading spinner until content is ready
+        document.addEventListener('DOMContentLoaded', () => {
+            const spinner = document.getElementById('loading');
+            setTimeout(() => {
+                spinner.style.display = 'none';
+            }, 2000); // Simulate loading for 2 seconds
+        });
+
+        // Real-time updates using Socket.io
+        const socket = io('/results');
+        socket.on('update_results', function (data) {
+            for (const [name, votes] of Object.entries(data)) {
+                const votesElement = document.querySelector(`#votes-${name}`);
+                if (votesElement) {
+                    votesElement.textContent = votes;
+                }
+            }
+        });
+
+        // Auto-refresh the page every 30 seconds
+        setInterval(() => {
+            window.location.reload();
+        }, 30000); // 30 seconds
+    </script>
+
+    <style>
+        @keyframes fade-in {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slide-in {
+            from {
+                transform: translateY(-20px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .animate-fade-in {
+            animation: fade-in 1.5s ease-in-out;
+        }
+
+        .animate-slide-in {
+            animation: slide-in 1.5s ease-in-out;
+        }
+    </style>
+</body>
+
+</html>

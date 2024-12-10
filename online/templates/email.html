@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Reset</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 py-8">
+    <div class="max-w-md mx-auto bg-white shadow-lg rounded-lg p-6">
+        <h1 class="text-2xl font-bold text-gray-800 mb-4">Reset Your Password</h1>
+        <p class="text-gray-600 mb-6">Hi {{ username }},</p>
+        <p class="text-gray-600 mb-6">
+            We received a request to reset your password. Click the button below to reset it.
+        </p>
+        <a
+            href="{{ link }}"
+            class="bg-blue-500 text-white px-6 py-2 rounded-lg inline-block text-center hover:bg-blue-600 transition"
+            style="text-decoration: none;"
+        >
+            Reset Password
+        </a>
+        <p class="text-gray-600 mt-6">
+            If you didn’t request this, please ignore this email or contact support if you have questions.
+        </p>
+        <p class="text-gray-600 mt-4">Thanks,<br>The Support Team</p>
+    </div>
+</body>
+</html>

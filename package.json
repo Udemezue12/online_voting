@@ -1,0 +1,17 @@
+{
+  "name": "online-voting",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./online/static/css/style.css",
+    "watch": "tailwindcss -i ./input.css -o ./online/static/css/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@tailwindcss/line-clamp": "^0.4.4",
+    "tailwindcss": "^3.4.15"
+  }
+}

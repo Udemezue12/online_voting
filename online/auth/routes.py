@@ -197,77 +197,77 @@ def logout():
     return redirect(url_for('auth.login'))
 
 
-@auth.route('/forgot_password', methods=['POST', 'GET'])
-def forgot_password():
-    form = ForgotPasswordForm()
-    if form.validate_on_submit():
-        email = form.email.data
-        user = User.query.filter_by(email=email).first()
+# @auth.route('/forgot_password', methods=['POST', 'GET'])
+# def forgot_password():
+#     form = ForgotPasswordForm()
+#     if form.validate_on_submit():
+#         email = form.email.data
+#         user = User.query.filter_by(email=email).first()
 
-        if user:
-            try:
-                username = user.username
-                hashCode = serializer.dumps(email, salt='forgot_password')
-                user.hasCode = hashCode
-                db.session.commit()
+#         if user:
+#             try:
+#                 username = user.username
+#                 hashCode = serializer.dumps(email, salt='forgot_password')
+#                 user.hasCode = hashCode
+#                 db.session.commit()
 
-                server = current_app.config.get(
-                    'SERVER_URL', 'http://localhost:3000')
-                link = f"{server}/{hashCode}"
+#                 server = current_app.config.get(
+#                     'SERVER_URL', 'http://localhost:3000')
+#                 link = f"{server}/{hashCode}"
 
-                send_mail(
-                    to=email,
-                    template='email.html',
-                    subject='Reset Password',
-                    username=username,
-                    link=link
-                )
+#                 send_mail(
+#                     to=email,
+#                     template='email.html',
+#                     subject='Reset Password',
+#                     username=username,
+#                     link=link
+#                 )
 
-                flash("A password reset link has been sent to your email!", "success")
-                return redirect(url_for('auth.login'))
-            except Exception as e:
-                loger.log_error(f"Error sending reset email: {str(e)}")
-                flash(
-                    "An error occurred while sending the reset email. Please try again.", "danger")
-        else:
-            flash("There is no account associated with that email.", "danger")
-    else:
-        loger.log_error(f"Form validation errors: {form.errors}")
+#                 flash("A password reset link has been sent to your email!", "success")
+#                 return redirect(url_for('auth.login'))
+#             except Exception as e:
+#                 loger.log_error(f"Error sending reset email: {str(e)}")
+#                 flash(
+#                     "An error occurred while sending the reset email. Please try again.", "danger")
+#         else:
+#             flash("There is no account associated with that email.", "danger")
+#     else:
+#         loger.log_error(f"Form validation errors: {form.errors}")
 
-    return render_template('forgot_password.html', title='Forgot Password', form=form)
+#     return render_template('forgot_password.html', title='Forgot Password', form=form)
 
 
-@auth.route("/<string:hashCode>", methods=["GET", "POST"])
-def hashcode(hashCode):
-    try:
-        email = serializer.loads(
-            hashCode, salt="forgot_password", max_age=3600)  # Validate hash
-    except BadTimeSignature:
-        loger.log_error("Expired password reset link accessed.")
-        flash("The password reset link has expired. Please request a new one.", "danger")
-        return redirect(url_for("auth.forgot_password"))
-    except BadSignature:
-        loger.log_error("Invalid password reset link accessed.")
-        flash("Invalid password reset link. Please request a new one.", "danger")
-        return redirect(url_for("auth.forgot_password"))
+# @auth.route("/<string:hashCode>", methods=["GET", "POST"])
+# def hashcode(hashCode):
+#     try:
+#         email = serializer.loads(
+#             hashCode, salt="forgot_password", max_age=3600)  # Validate hash
+#     except BadTimeSignature:
+#         loger.log_error("Expired password reset link accessed.")
+#         flash("The password reset link has expired. Please request a new one.", "danger")
+#         return redirect(url_for("auth.forgot_password"))
+#     except BadSignature:
+#         loger.log_error("Invalid password reset link accessed.")
+#         flash("Invalid password reset link. Please request a new one.", "danger")
+#         return redirect(url_for("auth.forgot_password"))
 
-    user = User.query.filter_by(email=email).first()
-    if not user:
-        flash("User does not exist!", "danger")
-        return redirect(url_for("auth.login"))
+#     user = User.query.filter_by(email=email).first()
+#     if not user:
+#         flash("User does not exist!", "danger")
+#         return redirect(url_for("auth.login"))
 
-    form = ResetPasswordForm()
-    if form.validate_on_submit():
-        if form.password.data == form.confirm_password.data:
-            user.password = generate_password_hash(
-                form.password.data
-            )
-            user.hasCode = None
-            db.session.commit()
+#     form = ResetPasswordForm()
+#     if form.validate_on_submit():
+#         if form.password.data == form.confirm_password.data:
+#             user.password = generate_password_hash(
+#                 form.password.data
+#             )
+#             user.hasCode = None
+#             db.session.commit()
 
-            flash("Your password has been reset successfully!", "success")
-            return redirect(url_for("auth.login"))
-        else:
-            flash("Passwords do not match. Please try again.", "danger")
+#             flash("Your password has been reset successfully!", "success")
+#             return redirect(url_for("auth.login"))
+#         else:
+#             flash("Passwords do not match. Please try again.", "danger")
 
-    return render_template("reset_password.html", form=form, hashCode=hashCode)
+#     return render_template("reset_password.html", form=form, hashCode=hashCode)

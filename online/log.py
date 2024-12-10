@@ -13,5 +13,5 @@ class Logs:
         logging.error(message)
 
 
-logger = Logs() 
+loger = Logs() 
 

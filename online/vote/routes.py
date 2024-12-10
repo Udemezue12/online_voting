@@ -10,19 +10,28 @@ from werkzeug.utils import secure_filename
 from online.extensions import db, csrf
 from online.models import Election, Vote, Candidate, Category, AuditLog
 from online.audit import log_error_during_vote, log_successful_vote, log_unauthorized_vote_attempt, log_vote_attempt
-from online.log import logger
+from online.log import loger
 from online.vote.forms import CandidateForm, ElectionForm, CategoryForm
 
 
 online_voting = Blueprint('online_voting', __name__)
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s [%(levelname)s] %(message)s',
+    handlers=[
+        logging.FileHandler("app.log"),
+        logging.StreamHandler()
+    ]
+)
 
+logger = logging.getLogger(__name__)
 
 def update_election_status(app):
     with app.app_context():
         now = datetime.utcnow()
         elections = Election.query.all()
         for election in elections:
-            election.update_status()  
+            election.update_status()
         db.session.commit()
 
 
@@ -143,11 +152,11 @@ def create_candidates():
 
             except IntegrityError as ie:
                 db.session.rollback()
-                logger.log_error(f"IntegrityError occurred: {ie.orig}")
+                loger.log_error(f"IntegrityError occurred: {ie.orig}")
                 flash('An integrity error occurred. Please check your input.', 'danger')
             except Exception as e:
                 db.session.rollback()
-                logger.log_error(f"Unexpected error occurred: {e}")
+                loger.log_error(f"Unexpected error occurred: {e}")
                 flash(f'An unexpected error occurred: {e}', 'danger')
 
         else:
@@ -337,7 +346,7 @@ def cast_vote(candidate_id, category_id):
         flash('A vote has already been cast from this device or location.', 'danger')
         log_vote_attempt(candidate_id, "IP-based duplicate vote attempt")
         return redirect(url_for('online_voting.live_results'))
-
+    logger.info(f"User {current_user.id} attempting to vote for candidate {candidate_id} in category {category_id}")
     vote = Vote(
         user_id=current_user.id,
         candidate_id=candidate.id,
@@ -345,6 +354,7 @@ def cast_vote(candidate_id, category_id):
         hashed_ip=hashed_ip,
         timestamp=datetime.utcnow()
     )
+    
 
     try:
         db.session.add(vote)
@@ -364,7 +374,9 @@ def cast_vote(candidate_id, category_id):
     except Exception as e:
         db.session.rollback()
         log_error_during_vote(candidate_id, e)
-        logger.log_error(f"Unexpected error occurred: {candidate_id}, {e}")
+        loger.log_error(f"Unexpected error occurred: {candidate_id}, {e}")
+        
+        logger.info(f"IP: {request.remote_addr}, CSRF Token: {request.form.get('csrf_token')}")
         flash('An error occurred while recording your vote. Please try again.', 'danger')
 
     return redirect(url_for('auth.index'))
@@ -475,7 +487,6 @@ def edit_election(election_id):
 @online_voting.route('/delete_election/<int:election_id>', methods=['POST'])
 @login_required
 @csrf.exempt
-
 def delete_election(election_id):
     if current_user.role != 'chairman':
         flash('Access Denied: Only admins delete this.', 'danger')
@@ -493,7 +504,6 @@ def delete_election(election_id):
     return redirect(url_for('online_voting.elections'))
 
 
-
 @online_voting.route('/category', methods=['GET'])
 @login_required
 def category():
@@ -502,8 +512,6 @@ def category():
         return redirect(url_for('auth.index'))
     categories = Category.query.all()
     return render_template('category.html', categories=categories)
-
-
 
 
 @online_voting.route('/edit_category/<int:category_id>', methods=['GET', 'POST'])

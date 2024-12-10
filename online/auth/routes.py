@@ -130,11 +130,11 @@ def register_admin():
                 flash('Thanks for registering!', 'success')
                 return redirect(url_for('auth.login'))
             except ValueError as e:
-                logger.log_error("Error")
+                loger.log_error("Error")
                 flash(str(e), 'danger')
             except IntegrityError as e:
                 db.session.rollback()
-                logger.log_error("An error occurred during registration..")
+                loger.log_error("An error occurred during registration..")
                 flash(
                     "An error occurred during registration. Please try again.", 'danger')
     else:
@@ -213,7 +213,7 @@ def forgot_password():
 
                 server = current_app.config.get(
                     'SERVER_URL', 'http://localhost:3000')
-                link = f"{server}/{hashCode}"  
+                link = f"{server}/{hashCode}"
 
                 send_mail(
                     to=email,
@@ -226,13 +226,13 @@ def forgot_password():
                 flash("A password reset link has been sent to your email!", "success")
                 return redirect(url_for('auth.login'))
             except Exception as e:
-                logger.log_error(f"Error sending reset email: {str(e)}")
+                loger.log_error(f"Error sending reset email: {str(e)}")
                 flash(
                     "An error occurred while sending the reset email. Please try again.", "danger")
         else:
             flash("There is no account associated with that email.", "danger")
     else:
-        logger.log_error(f"Form validation errors: {form.errors}")
+        loger.log_error(f"Form validation errors: {form.errors}")
 
     return render_template('forgot_password.html', title='Forgot Password', form=form)
 
@@ -243,11 +243,11 @@ def hashcode(hashCode):
         email = serializer.loads(
             hashCode, salt="forgot_password", max_age=3600)  # Validate hash
     except BadTimeSignature:
-        logger.log_error("Expired password reset link accessed.")
+        loger.log_error("Expired password reset link accessed.")
         flash("The password reset link has expired. Please request a new one.", "danger")
         return redirect(url_for("auth.forgot_password"))
     except BadSignature:
-        logger.log_error("Invalid password reset link accessed.")
+        loger.log_error("Invalid password reset link accessed.")
         flash("Invalid password reset link. Please request a new one.", "danger")
         return redirect(url_for("auth.forgot_password"))
 

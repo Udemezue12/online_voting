@@ -49,7 +49,6 @@
                     {% if not current_user.votes | selectattr("category_id", "equalto", candidate.category_id) | list %}
                     <form action="{{ url_for('online_voting.cast_vote', candidate_id=candidate.id, category_id=candidate.category_id) }}" 
                           method="POST" class="mt-6">
-                          {{ csrf_token() }}
                         <button type="submit" 
                                 class="w-full bg-gradient-to-r from-green-400 to-green-600 text-white font-bold py-3 px-4 rounded-lg shadow hover:from-green-500 hover:to-green-700 transition-all duration-300">
                             Vote

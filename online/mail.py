@@ -3,7 +3,7 @@ from flask import current_app, render_template
 from flask_mail import Message
 from dotenv import load_dotenv
 from online import create_app
-from online.log import logger
+from online.log import loger
 from online.extensions import mail
 
 app = create_app

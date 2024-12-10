@@ -8,7 +8,7 @@ from sqlalchemy.exc import IntegrityError
 from werkzeug.security import generate_password_hash
 from flask_login import current_user, login_user, logout_user
 from config import serializer, SERVER_URL
-from online.log import logger
+from online.log import loger
 from online.extensions import db
 from online.mail import send_mail
 from online.validate import validate_password
